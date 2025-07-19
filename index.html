@@ -1,0 +1,4345 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en" class=""><head>
+    <meta charset="utf-8">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        HomeUrl: 'https://www.kayandkompany.com/',
+        AccountUUID: 'e49be9d8fdca493cb558123698298376',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '524d2f23',
+        SiteType: atob('RFVEQU9ORQ=='),
+        PublicationDate: 'Thu Mar 27 15:28:17 UTC 2025',
+        ExternalUid: 'F23C2856E44B740BE10000000A010257',
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialPostPageUuid: '',
+        InitialDynamicItem: '',
+        DynamicPageInfo: {
+            isDynamicPage: false,
+            base64JsonRowData: 'null',
+        },
+        InitialPageAlias: 'meet-our-hair-salon-best-hairdressers-team',
+        InitialPageUuid: 'f8a4cd2db1eb4058b800a084e4b580a9',
+        InitialPageId: '1173829349',
+        InitialEncodedPageAlias: 'bWVldC1vdXItaGFpci1zYWxvbi1iZXN0LWhhaXJkcmVzc2Vycy10ZWFt',
+        InitialHeaderUuid: '8a27a6bcccb54401bed0b99a6e4beb4a',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: false,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '53410',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID: null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        StorePageAlias: 'null',
+        StorePagesUrls: 'e30=',
+        IsNewStore: 'false',
+        StorePath: '',
+        StoreId: 'null',
+        StoreVersion: 0,
+        StoreBaseUrl: '',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        IsStoreSuspended: false,
+        HasCustomDomain: true,
+        SimpleSite: false,
+        showCookieNotification: true,
+        cookiesNotificationMarkup: ' <div>We use cookies to ensure that we give you the best experience on our website. If you would like to change your preferences you may do so by following the instructions <a href=\"http:\/\/www.aboutcookies.org\/Default.aspx?page=1\" target=\"_blank\">here<\/a>.<\/div> \n',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        currentLocale: 'en',
+        NavItems: '{}',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: 4,
+            NavbarLiveHomePage: 'https://www.kayandkompany.com/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: '206',
+        customTemplateId: 'null',
+        siteTemplateId: 'null',
+        productId: 'DM_DIRECT',
+        disableTracking: false,
+        pageType: 'FROM_SCRATCH',
+        isRuntimeServer: true,
+        isInEditor: false,
+        hasNativeStore: false,
+        defaultLang: 'en',
+        hamburgerMigration: null,
+        isFlexSite : false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- Inject secured cdn script -->
+
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function (global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function () {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=3';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function (registration) {
+                        // Registration was successful
+                        console.log(
+                            'ServiceWorker registration successful with scope: ',
+                            registration.scope
+                        );
+                    },
+                    function (err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function (err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function () {
+            var refreshing;
+            return function () {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function (resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<link rel="manifest" href="/manifest.json">
+<!-- Tell the browser it's a PWA -->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- Tell iOS it's a PWA -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- End PWA settings -->
+
+
+
+<link rel="canonical" href="https://www.kayandkompany.com/meet-our-hair-salon-best-hairdressers-team">
+
+<meta id="view" name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=5, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="images/iconb-200x200.png">
+
+<link rel="icon" type="image/x-icon" href="images/site_favicon_16_1448613048248.ico">
+
+<!-- End favorite icons -->
+<link rel="preconnect" href="https://lirp.cdn-website.com/">
+
+
+
+<!-- render the required CSS and JS in the head section -->
+<script id="d-js-dmapi">
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if (!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function () {
+            },
+            getCurrentDeviceType: function () {
+                return window._currentDevice;
+            },
+            runOnReady: (ns, fn) => {
+                const safeFn = dmAPI.toSafeFn(fn);
+                ns = ns || 'global_' + Math.random().toString(36).slice(2, 11);
+                const eventName = 'afterAjax.' + ns;
+
+                if (document.readyState === 'complete') {
+                    $.DM.events.off(eventName).on(eventName, safeFn);
+                    setTimeout(function () {
+                        safeFn({
+                            isAjax: false,
+                        });
+                    }, 0);
+                } else {
+                    window?.waitForDeferred?.('dmAjax', () => {
+                        $.DM.events.off(eventName).on(eventName, safeFn);
+                        safeFn({
+                            isAjax: false,
+                        });
+                    });
+                }
+            },
+            toSafeFn: (fn) => {
+                if (fn?.safe) {
+                    return fn;
+                }
+                const safeFn = function (...args) {
+                    try {
+                        return fn?.apply(null, args);
+                    } catch (e) {
+                        console.log('function failed ' + e.message);
+                    }
+                };
+                safeFn.safe = true;
+                return safeFn;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+</script>
+
+<!-- loadCSS function header.jsp-->
+
+
+
+
+
+
+<script id="d-js-load-css">
+/**
+ * There are a few <link> tags with CSS resource in them that are preloaded in the page
+ * in each of those there is a "onload" handler which invokes the loadCSS callback
+ * defined here.
+ * We are monitoring 3 main CSS files - the runtime, the global and the page.
+ * When each load we check to see if we can append them all in a batch. If threre
+ * is no page css (which may happen on inner pages) then we do not wait for it
+ */
+(function () {
+  let cssLinks = {};
+  function loadCssLink(link) {
+    link.onload = null;
+    link.rel = "stylesheet";
+    link.type = "text/css";
+  }
+  
+    function checkCss() {
+      const pageCssLink = document.querySelector("[id*='CssLink']");
+      const widgetCssLink = document.querySelector("[id*='widgetCSS']");
+
+        if (cssLinks && cssLinks.runtime && cssLinks.global && (!pageCssLink || cssLinks.page) && (!widgetCssLink || cssLinks.widget)) {
+            const storedRuntimeCssLink = cssLinks.runtime;
+            const storedPageCssLink = cssLinks.page;
+            const storedGlobalCssLink = cssLinks.global;
+            const storedWidgetCssLink = cssLinks.widget;
+
+            storedGlobalCssLink.disabled = true;
+            loadCssLink(storedGlobalCssLink);
+
+            if (storedPageCssLink) {
+                storedPageCssLink.disabled = true;
+                loadCssLink(storedPageCssLink);
+            }
+
+            if(storedWidgetCssLink) {
+                storedWidgetCssLink.disabled = true;
+                loadCssLink(storedWidgetCssLink);
+            }
+
+            storedRuntimeCssLink.disabled = true;
+            loadCssLink(storedRuntimeCssLink);
+
+            requestAnimationFrame(() => {
+                setTimeout(() => {
+                    storedRuntimeCssLink.disabled = false;
+                    storedGlobalCssLink.disabled = false;
+                    if (storedPageCssLink) {
+                      storedPageCssLink.disabled = false;
+                    }
+                    if (storedWidgetCssLink) {
+                      storedWidgetCssLink.disabled = false;
+                    }
+                    // (SUP-4179) Clear the accumulated cssLinks only when we're
+                    // sure that the document has finished loading and the document 
+                    // has been parsed.
+                    if(document.readyState === 'interactive') {
+                      cssLinks = null;
+                    }
+                }, 0);
+            });
+        }
+    }
+  
+
+  function loadCSS(link) {
+    try {
+      var urlParams = new URLSearchParams(window.location.search);
+      var noCSS = !!urlParams.get("nocss");
+      var cssTimeout = urlParams.get("cssTimeout") || 0;
+
+      if (noCSS) {
+        return;
+      }
+      if (link.href && link.href.includes("d-css-runtime")) {
+        cssLinks.runtime = link;
+        checkCss();
+      } else if (link.id === "siteGlobalCss") {
+        cssLinks.global = link;
+        checkCss();
+      } 
+      
+      else if (link.id && link.id.includes("CssLink")) {
+        cssLinks.page = link;
+        checkCss();
+      } else if (link.id && link.id.includes("widgetCSS")) {
+        cssLinks.widget = link;
+        checkCss();
+      }
+      
+      else {
+        requestIdleCallback(function () {
+          window.setTimeout(function () {
+            loadCssLink(link);
+          }, parseInt(cssTimeout, 10));
+        });
+      }
+    } catch (e) {
+      throw e
+    }
+  }
+  window.loadCSS = window.loadCSS || loadCSS;
+})();
+</script>
+
+
+
+<script data-role="deferred-init" type="text/javascript">
+    /* usage: window.getDeferred(<deferred name>).resolve() or window.getDeferred(<deferred name>).promise.then(...)*/
+    function Def() {
+        this.promise = new Promise((function (a, b) {
+            this.resolve = a, this.reject = b
+        }).bind(this))
+    }
+
+    const defs = {};
+    window.getDeferred = function (a) {
+        return null == defs[a] && (defs[a] = new Def), defs[a]
+    }
+    window.waitForDeferred = function (b, a, c) {
+        let d = window?.getDeferred?.(b);
+        d
+            ? d.promise.then(a)
+            : c && ["complete", "interactive"].includes(document.readyState)
+                ? setTimeout(a, 1)
+                : c
+                    ? document.addEventListener("DOMContentLoaded", a)
+                    : console.error(`Deferred  does not exist`);
+    };
+</script>
+<style id="forceCssIncludes">
+    /* This file is auto-generated from a `scss` file with the same name */
+
+.videobgwrapper{overflow:hidden;position:absolute;z-index:0;width:100%;height:100%;top:0;left:0;pointer-events:none;border-radius:inherit}.videobgframe{position:absolute;width:101%;height:100%;top:50%;left:50%;transform:translateY(-50%) translateX(-50%);object-fit:fill}#dm video.videobgframe{margin:0}@media (max-width:767px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:80vh}}@media (min-width:1025px){.dmRoot .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}@media (min-width:768px) and (max-width:1024px){.responsiveTablet .dmPhotoGallery.newPhotoGallery:not(.photo-gallery-done){min-height:45vh}}#dm [data-show-on-page-only]{display:none!important}#dmRoot div.stickyHeaderFix div.site_content{margin-top:0!important}#dmRoot div.stickyHeaderFix div.hamburger-header-container{position:relative}
+    
+
+</style>
+<style id="cssVariables" type="text/css">
+    
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- loadCSS function fonts.jsp-->
+
+
+
+<link type="text/css" rel="stylesheet" href="https://irp.cdn-website.com/fonts/css2?family=Creepster:ital,wght@0,400&family=Playball:ital,wght@0,400&family=Creepster:ital,wght@0,400&family=Antic+Didone:ital,wght@0,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Lusitana:ital,wght@0,400;0,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:ital,wght@0,200..700;1,200..700&family=Eater:ital,wght@0,400&family=Abril+Fatface:ital,wght@0,400&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Abril+Fatface:ital,wght@0,400&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alice:ital,wght@0,400&family=Lobster:ital,wght@0,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Comfortaa:ital,wght@0,300..700;1,300..700&subset=latin-ext&display=swap">
+
+
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-structured-global-->
+<link rel="stylesheet" type="text/css" href="css/d-css-runtime-desktop-one-package-structured-global.min.css">
+
+<!-- End of RT CSS Include -->
+
+<link type="text/css" rel="stylesheet" href="css/70c7f5fca9be30a42000d4c4dd6bba8f.css" id="widgetCSS">
+
+<!-- Support `img` size attributes -->
+<style>img[width][height] {
+  height: auto;
+}</style>
+
+<!-- Support showing sticky element on page only -->
+<style>
+  body[data-page-alias="meet-our-hair-salon-best-hairdressers-team"] #dm [data-show-on-page-only="meet-our-hair-salon-best-hairdressers-team"] {
+    display: block !important;
+  }
+</style>
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="css/524d2f23_1.min.css" id="siteGlobalCss">
+
+
+<!-- additional css file per platform -->
+<link type="text/css" rel="stylesheet" href="css/yell-runtime.css">
+
+
+<style id="customWidgetStyle" type="text/css">
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">
+    *#dm *.dmBody div.u_1480510028
+{
+	line-height:200% !important;
+}
+*#dm *.dmBody div.u_1048831605
+{
+	line-height:200% !important;
+}
+*#dm *.dmBody a.span.textonly
+{
+	color:rgb(255,255,255) !important;
+}
+*#dm *.dmBody a.u_1405614629 span.textonly
+{
+	font-style:italic !important;
+}
+*#dm *.dmBody div.u_1102801057
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody a.u_1405614629 span.text
+{
+	font-style:italic !important;
+	color:rgba(231,154,74,1) !important;
+}
+*#dm *.dmBody a.u_1405614629:hover span.text
+{
+	color:rgba(255,255,255,1) !important;
+	font-weight:bold !important;
+	font-style:normal !important;
+}
+*#dm *.dmBody a.u_1405614629.hover span.text
+{
+	color:rgba(255,255,255,1) !important;
+	font-weight:bold !important;
+	font-style:normal !important;
+}
+*#dm *.dmBody *.u_1734731133
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1734731133 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1979838063
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1325243512
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1944592394
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1033418855 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1283158917
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody h3.u_1232488192
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1504983380
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1253477289
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1253477289 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1825738838
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody h1.u_1220579297
+{
+	line-height:normal !important;
+}
+*#dm *.dmBody h3.u_1253477289
+{
+	color:rgba(231,154,74,1) !important;
+	line-height:200% !important;
+}
+*#dm *.dmBody div.u_1033418855
+{
+	width:100% !important;
+	max-width:100% !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1721948500
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody h3.u_1701057833
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+	line-height:150% !important;
+	color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1147506364
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1172343664
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1172343664 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1270985710
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1641336053
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody h3.u_1734731133
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1779764893 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1779764893
+{
+	width:100% !important;
+	max-width:100% !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1367343652
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1658805144
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1658805144 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody section.u_1174073899
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1775481611
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1723882328
+{
+	width:336px !important;
+	max-width:100% !important;
+	display:block !important;
+}
+*#dm *.dmBody div.u_1511306910
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1435599355
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1172343664
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1219504287
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1729165143
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody *.u_1329419779
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1329419779 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1228957355
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1375537360
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1314909067
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1314909067 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1314909067
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:150% !important;
+}
+*#dm *.dmBody div.u_1351112681
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1253726970 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody *.u_1897651665
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1897651665 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1897651665
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1075583398
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1926419617
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1253726970
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody div.u_1211594048
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1021752370
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1021752370 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1021752370
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody *.u_1016099791
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1016099791 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1016099791
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody a.u_1981878386 .iconBg
+{
+	display:none !important;
+}
+*#dm *.dmBody a.u_1981878386
+{
+	border-radius:6px !important;
+	-moz-border-radius:6px !important;
+	-webkit-border-radius:6px !important;
+}
+*#dm *.dmBody a.u_1964487256 .iconBg
+{
+	display:none !important;
+}
+*#dm *.dmBody a.u_1964487256
+{
+	border-radius:6px !important;
+	-moz-border-radius:6px !important;
+	-webkit-border-radius:6px !important;
+}
+*#dm *.dmBody div.u_1139123568
+{
+	line-height:150% !important;
+}
+*#dm *.dmBody a.u_1405614629 .iconBg
+{
+	display:none !important;
+}
+*#dm *.dmBody a.u_1405614629
+{
+	color:rgb(68,68,68) !important;
+	background-color:rgba(44,44,47,1) !important;
+	border-radius:6px !important;
+	-moz-border-radius:6px !important;
+	-webkit-border-radius:6px !important;
+	border-color:rgba(255,255,255,1) !important;
+	border-style:solid !important;
+	border-width:1px !important;
+}
+*#dm *.dmBody a.u_1405614629:hover
+{
+	color:rgb(105,101,92) !important;
+	background-color:rgba(44,44,47,1) !important;
+	background-image:none !important;
+}
+*#dm *.dmBody a.u_1405614629.hover
+{
+	color:rgb(105,101,92) !important;
+	background-color:rgba(44,44,47,1) !important;
+	background-image:none !important;
+}
+*#dm *.dmBody div.u_1600977857
+{
+	color:white !important;
+}
+*#dm *.dmBody div.u_1188207262
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1219817519
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1219817519 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody h3.u_1219817519
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:150% !important;
+}
+*#dm *.dmBody div.u_1617271783
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1606199701 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1606199701
+{
+	width:240px !important;
+	max-width:100% !important;
+	display:block !important;
+}
+*#dm *.dmBody *.u_1606199701
+{
+	width:100% !important;
+}
+*#dm *.dmBody *.u_1574188403
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1574188403 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1574188403
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody a.u_1889966858 .iconBg
+{
+	display:none !important;
+}
+*#dm *.dmBody a.u_1889966858
+{
+	border-radius:6px !important;
+	-moz-border-radius:6px !important;
+	-webkit-border-radius:6px !important;
+}
+*#dm *.dmBody div.u_1544553908
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1430554355
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody div.u_1681350995
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody *.u_1430554355
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1487589990
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1151121583
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1151121583 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody h3.u_1151121583
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:150% !important;
+}
+*#dm *.dmBody div.u_1584492045
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1053067310
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1053067310 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1053067310
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody a.u_1268594533 .iconBg
+{
+	display:none !important;
+}
+*#dm *.dmBody a.u_1268594533
+{
+	border-radius:6px !important;
+	-moz-border-radius:6px !important;
+	-webkit-border-radius:6px !important;
+}
+*#dm *.dmBody div.u_1670135265
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1464368942
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1464368942 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1053431550
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody h3.u_1464368942
+{
+	color:rgba(255,255,255,1) !important;
+	font-weight:normal !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1669217306
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1219773967
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1219773967 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1219773967
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:150% !important;
+}
+*#dm *.dmBody div.u_1229272471
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1845617207 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1845617207
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1926072813
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1926072813 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1926072813
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1188779525
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1159886720
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1320484854
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody div.u_1124345619
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1816897393
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1816897393 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1816897393
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody *.u_1304114216
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1304114216 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1304114216
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody *.u_1779764893
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1106392442
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1803766004
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1803766004 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1803766004
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:150% !important;
+}
+*#dm *.dmBody a.u_1712261765 .iconBg
+{
+	display:none !important;
+}
+*#dm *.dmBody a.u_1712261765
+{
+	border-radius:6px !important;
+	-moz-border-radius:6px !important;
+	-webkit-border-radius:6px !important;
+}
+*#dm *.dmBody *.u_1845617207
+{
+	width:100% !important;
+}
+*#dm *.dmBody h3.u_1329419779
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody *.u_1415250821
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1719857799
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody div.u_1176096614
+{
+	border-color:rgba(0,0,0,0) !important;
+	border-width:0px !important;
+	border-style:solid !important;
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1076046884
+{
+	background-color:rgba(44,44,47,1) !important;
+	border-color:rgba(0,0,0,0) !important;
+	border-width:0px !important;
+	border-style:solid !important;
+}
+*#dm *.dmBody div.u_1719857799 img[dm_changed]
+{
+	border-style:solid !important;
+	border-width:0px !important;
+}
+*#dm *.dmBody div.u_1719857799 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+	border-width:0px !important;
+}
+*#dm *.dmBody div.u_1658805144
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:initial !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1069233430
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody *.u_1896793832
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1896793832 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1896793832
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:150% !important;
+}
+*#dm *.dmBody div.u_1014781228
+{
+	background-color:rgba(44,44,47,1) !important;
+}
+*#dm *.dmBody div.u_1273407544 img
+{
+	border-style:solid !important;
+	border-color:rgba(0,0,0,0) !important;
+}
+*#dm *.dmBody div.u_1273407544
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1997040180
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1997040180 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody div.u_1997040180
+{
+	color:rgba(44,44,47,1) !important;
+	line-height:150% !important;
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1955774436
+{
+	background-color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1472854754
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1103667069
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1103667069 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody h3.u_1103667069
+{
+	line-height:normal !important;
+	color:rgba(255,255,255,1) !important;
+}
+*#dm *.dmBody div.u_1880238541
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1770752996
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody *.u_1770752996 .rteBlock
+{
+	text-align:CENTER !important;
+}
+*#dm *.dmBody h3.u_1770752996
+{
+	color:rgba(255,255,255,1) !important;
+	font-weight:normal !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1206502864
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody *.u_1206502864
+{
+	width:100% !important;
+}
+*#dm *.dmBody div.u_1470552703
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1299584296
+{
+	width:100% !important;
+	display:block !important;
+	max-width:100% !important;
+}
+*#dm *.dmBody div.u_1957703426
+{
+	color:rgba(255,255,255,1) !important;
+	line-height:normal !important;
+}
+*#dm *.dmBody div.u_1135928072 hr
+{
+	border-top-width:1px !important;
+	border-top-style:solid !important;
+}
+*#dm *.dmBody *.u_1320484854
+{
+	width:100% !important;
+}
+
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    *#dm *.dmBody section.u_1174073899
+{
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	padding-left:40px !important;
+	padding-right:40px !important;
+}
+*#dm *.dmBody div.u_1605904566
+{
+	height:5px !important;
+}
+*#dm *.dmBody div.u_1441508233
+{
+	padding-top:8px !important;
+}
+*#dm *.dmBody section.u_1529796812
+{
+	padding-top:18px !important;
+	padding-bottom:24px !important;
+	padding-left:40px !important;
+	padding-right:40px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:none !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1480510028
+{
+	margin-left:auto !important;
+	margin-right:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	display:block !important;
+	padding-bottom:2px !important;
+	float:none !important;
+	top:0 !important;
+	max-width:100% !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	margin-top:8px !important;
+	position:relative !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1775481611
+{
+	margin-bottom:20px !important;
+	margin-top:0 !important;
+	padding-top:0 !important;
+	padding-bottom:0 !important;
+	padding-left:40px !important;
+	padding-right:40px !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1965678343
+{
+	padding-top:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody a.u_1405614629
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 86px) !important;
+	position:relative !important;
+	height:49px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:787px !important;
+	margin-top:33px !important;
+	margin-bottom:10px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody a.u_1405614629 span.text
+{
+	font-size:24px !important;
+}
+*#dm *.dmBody h3.u_1734731133
+{
+	font-size:24px !important;
+}
+*#dm *.dmBody div.u_1139123568
+{
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:29px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1546704738
+{
+	padding-top:0 !important;
+}
+*#dm *.dmBody h3.u_1232488192
+{
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	float:none !important;
+	top:0 !important;
+	max-width:100% !important;
+	left:0 !important;
+	width:787px !important;
+	position:relative !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	height:auto !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:25px !important;
+	margin-bottom:25px !important;
+}
+*#dm *.dmBody img.u_1914709735
+{
+	width:100% !important;
+	max-height:none !important;
+	max-width:none !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1511306910
+{
+	display:block !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody h1.u_1220579297
+{
+	top:0 !important;
+	left:0 !important;
+	width:481px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody h3.u_1253477289
+{
+	display:block !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1825738838
+{
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:5.5px !important;
+	padding-left:40px !important;
+	padding-bottom:5.5px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1504983380
+{
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:6.5px !important;
+	padding-left:40px !important;
+	padding-bottom:6.5px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1283158917
+{
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody h3.u_1701057833
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:739px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:25px !important;
+	margin-bottom:25px !important;
+	font-size:18px !important;
+}
+*#dm *.dmBody div.u_1219504287
+{
+	padding-top:10px !important;
+	padding-bottom:10px !important;
+}
+*#dm *.dmBody div.u_1172343664
+{
+	padding-top:2px !important;
+}
+*#dm *.dmBody img.u_1777638690
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1417847396
+{
+	padding-top:0 !important;
+}
+*#dm *.dmBody img.u_1006970983
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody img.u_1518312021
+{
+	width:100% !important;
+	max-height:none !important;
+	max-width:none !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1723882328
+{
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	float:none !important;
+	top:0 !important;
+	max-width:100% !important;
+	left:0 !important;
+	width:327px !important;
+	position:relative !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:left !important;
+	max-height:1000px !important;
+	display:block !important;
+	height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:19px !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1048831605
+{
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	float:none !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	top:0 !important;
+	max-width:100% !important;
+	left:0 !important;
+	width:424px !important;
+	margin-top:14px !important;
+	position:relative !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	height:auto !important;
+	display:block !important;
+}
+*#dm *.dmBody h3.u_1329419779
+{
+	font-size:18px !important;
+	padding-top:2px !important;
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:466px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody img.u_1837146202
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1897651665
+{
+	padding-top:2px !important;
+}
+*#dm *.dmBody div.u_1253726970
+{
+	width:346px !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	height:auto !important;
+}
+*#dm *.dmBody img.u_1707499744
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1021752370
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:465.6px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1016099791
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:424.475px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1033418855
+{
+	width:299px !important;
+	max-height:1000px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	float:none !important;
+	top:0 !important;
+	max-width:100% !important;
+	left:0 !important;
+	position:relative !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:left !important;
+	display:block !important;
+	height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1944592394
+{
+	margin-left:0 !important;
+	padding-top:5px !important;
+	padding-left:40px !important;
+	padding-bottom:15px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1325243512
+{
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:40px !important;
+	padding-bottom:2px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:left !important;
+}
+*#dm *.dmBody div.u_1211594048
+{
+	width:calc(100% - 26px) !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:412px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:13px !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1641336053
+{
+	width:calc(100% - 69px) !important;
+	height:auto !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:326px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:22px !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody a.u_1964487256
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 336px) !important;
+	position:relative !important;
+	height:53px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:288px !important;
+	margin-top:19px !important;
+	margin-bottom:10px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody h3.u_1219817519
+{
+	font-size:18px !important;
+}
+*#dm *.dmBody img.u_1234477303
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1574188403
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:869px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1326485874
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:3px !important;
+	padding-left:40px !important;
+	padding-bottom:3px !important;
+	max-width:100% !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody a.u_1889966858
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 340px) !important;
+	position:relative !important;
+	height:43px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:280px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1075375726
+{
+	padding-top:13px !important;
+	padding-left:40px !important;
+	padding-bottom:13px !important;
+	padding-right:40px !important;
+	width:auto !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	height:auto !important;
+	max-width:100% !important;
+	min-width:0 !important;
+	text-align:start !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody img.u_1322093468
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1616878416
+{
+	padding-top:0 !important;
+}
+*#dm *.dmBody div.u_1487589990
+{
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:left !important;
+}
+*#dm *.dmBody h3.u_1151121583
+{
+	font-size:18px !important;
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1483272423
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:398px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:left !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody a.u_1268594533
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 340px) !important;
+	position:relative !important;
+	height:43px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:280px !important;
+	margin-top:16px !important;
+	margin-bottom:10px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1917837442
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:340px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody div.u_1606199701
+{
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	float:none !important;
+	top:0 !important;
+	max-width:267px !important;
+	left:0 !important;
+	width:calc(100% - 346px) !important;
+	position:relative !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	display:block !important;
+	max-height:1000px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1782393937
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody h3.u_1464368942
+{
+	display:block !important;
+	top:0 !important;
+	left:0 !important;
+	width:100% !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	font-size:18px !important;
+	float:none !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody img.u_1810532998
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1926072813
+{
+	padding-top:2px !important;
+}
+*#dm *.dmBody img.u_1992515464
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody img.u_1084022455
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1816897393
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:465.6px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	max-width:100% !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1304114216
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:424.475px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1124345619
+{
+	width:236px !important;
+	height:auto !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:20px !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1669217306
+{
+	margin-left:0 !important;
+	padding-top:5px !important;
+	padding-left:40px !important;
+	padding-bottom:5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1089743434
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 352px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:256px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1803766004
+{
+	padding-top:2px !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 9px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:941.075px !important;
+	margin-top:0 !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+	display:block !important;
+	float:none !important;
+}
+*#dm *.dmBody div.u_1779764893
+{
+	padding-top:0 !important;
+	padding-left:0 !important;
+	display:block !important;
+	padding-bottom:0 !important;
+	float:none !important;
+	top:0 !important;
+	max-width:240px !important;
+	left:0 !important;
+	width:calc(100% - 360px) !important;
+	position:relative !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	max-height:1000px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1721948500
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1147506364
+{
+	margin-left:0 !important;
+	padding-top:5px !important;
+	padding-left:40px !important;
+	padding-bottom:5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody a.u_1712261765
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 340px) !important;
+	position:relative !important;
+	height:43px !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:280px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1443792620
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:5px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1188779525
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+	margin-right:0 !important;
+	margin-left:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1845617207
+{
+	width:calc(100% - 338px) !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:283px !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	height:auto !important;
+}
+*#dm *.dmBody div.u_1604465263
+{
+	margin-left:0 !important;
+	padding-top:10px !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1228957355
+{
+	padding-top:15px !important;
+	padding-bottom:0 !important;
+	margin-left:0 !important;
+	padding-left:40px !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:40px !important;
+	width:auto !important;
+}
+*#dm *.dmBody div.u_1415250821
+{
+	display:block !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 340px) !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:15px !important;
+	margin-right:auto !important;
+	max-width:278.545px !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:start !important;
+	important:true !important;
+	min-height:auto !important;
+	margin-left:auto !important;
+	height:auto !important;
+}
+*#dm *.dmBody img.u_1177685424
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1719857799
+{
+	width:604.991px !important;
+	max-height:1000px !important;
+	display:block !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	height:auto !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+}
+*#dm *.dmBody div.u_1896793832
+{
+	display:block !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:869px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:100% !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:center !important;
+}
+*#dm *.dmBody img.u_1850556337
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1273407544
+{
+	width:345px !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:0 !important;
+	text-align:left !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+}
+*#dm *.dmBody div.u_1997040180
+{
+	padding-top:2px !important;
+}
+*#dm *.dmBody div.u_1955774436
+{
+	float:none !important;
+	top:0 !important;
+	left:0 !important;
+	width:auto !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:0 !important;
+	padding-left:40px !important;
+	padding-bottom:0 !important;
+	max-width:100% !important;
+	padding-right:40px !important;
+	min-width:0 !important;
+	text-align:start !important;
+}
+*#dm *.dmBody img.u_1106445335
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody img.u_1252801911
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody h3.u_1770752996
+{
+	display:block !important;
+	top:0 !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0 !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0 !important;
+	min-width:25px !important;
+	font-size:18px !important;
+	float:none !important;
+	text-align:center !important;
+}
+*#dm *.dmBody img.u_1446782533
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1206502864
+{
+	width:305.599px !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0px !important;
+	left:0px !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:left !important;
+	height:auto !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:0 !important;
+	margin-top:0px !important;
+	margin-bottom:0px !important;
+}
+*#dm *.dmBody h3.u_1103667069
+{
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	font-size:18px !important;
+	display:block !important;
+	float:none !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:7px !important;
+	margin-bottom:8px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody img.u_1583564229
+{
+	width:100% !important;
+	height:auto !important;
+	max-height:none !important;
+	max-width:none !important;
+}
+*#dm *.dmBody div.u_1957703426
+{
+	display:block !important;
+	top:0px !important;
+	left:0px !important;
+	width:calc(100% - 0px) !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:center !important;
+	float:none !important;
+	min-height:auto !important;
+	margin-right:0px !important;
+	margin-left:0px !important;
+	margin-top:7.99653px !important;
+	margin-bottom:0px !important;
+}
+*#dm *.dmBody div.u_1299584296
+{
+	width:337.558px !important;
+	height:auto !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:left !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:13.9925px !important;
+	margin-bottom:0px !important;
+}
+*#dm *.dmBody div.u_1681350995
+{
+	display:block !important;
+	top:0px !important;
+	left:0 !important;
+	width:465.582px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:8px !important;
+	margin-bottom:8px !important;
+	float:none !important;
+	min-height:auto !important;
+}
+*#dm *.dmBody div.u_1430554355
+{
+	width:268.996px !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:14px !important;
+	margin-bottom:0px !important;
+	height:auto !important;
+	min-height:auto !important;
+}
+*#dm *.dmBody div.u_1470552703
+{
+	display:block !important;
+	top:0px !important;
+	left:0 !important;
+	width:277.546px !important;
+	position:relative !important;
+	height:auto !important;
+	padding-top:2px !important;
+	padding-left:0px !important;
+	padding-bottom:2px !important;
+	max-width:100% !important;
+	padding-right:0px !important;
+	min-width:0 !important;
+	text-align:center !important;
+	float:none !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:9.38483px !important;
+	margin-bottom:8px !important;
+}
+*#dm *.dmBody a.u_1746684388
+{
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	width:calc(100% - 69px) !important;
+	position:relative !important;
+	height:65.9964px !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	max-width:285.989px !important;
+	margin-top:9.99133px !important;
+	margin-bottom:0px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:center !important;
+}
+*#dm *.dmBody div.u_1135928072
+{
+	margin-left:0 !important;
+	padding-top:0 !important;
+	padding-left:0 !important;
+	padding-bottom:0 !important;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	margin-right:0 !important;
+	padding-right:0 !important;
+}
+*#dm *.dmBody div.u_1880238541
+{
+	width:calc(100% - 21px) !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:263.589px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:left !important;
+	height:auto !important;
+	min-height:auto !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:19.9171px !important;
+	margin-bottom:0px !important;
+}
+*#dm *.dmBody div.u_1472854754
+{
+	width:calc(100% - 0px) !important;
+	height:auto !important;
+	display:block !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0px !important;
+	left:0px !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:267.354px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:center !important;
+	min-height:auto !important;
+	margin-right:0px !important;
+	margin-left:0.755635px !important;
+	margin-top:19.9252px !important;
+	margin-bottom:0px !important;
+}
+*#dm *.dmBody div.u_1320484854
+{
+	width:calc(100% - 122px) !important;
+	max-height:1000px !important;
+	float:none !important;
+	top:0px !important;
+	left:0 !important;
+	position:relative !important;
+	padding-top:0px !important;
+	padding-left:0px !important;
+	padding-bottom:0px !important;
+	max-width:219.98px !important;
+	padding-right:0px !important;
+	min-width:25px !important;
+	text-align:left !important;
+	display:block !important;
+	margin-right:auto !important;
+	margin-left:auto !important;
+	margin-top:20px !important;
+	margin-bottom:0px !important;
+	height:auto !important;
+	min-height:auto !important;
+}
+
+</style>
+
+<!-- Flex Sections CSS -->
+
+
+
+
+
+
+
+<style id="globalFontSizeStyle" type="text/css">
+    .font-size-36, .size-36, .size-36 > font { font-size: 36px !important; }.font-size-30, .size-30, .size-30 > font { font-size: 30px !important; }.font-size-40, .size-40, .size-40 > font { font-size: 40px !important; }.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }.font-size-22, .size-22, .size-22 > font { font-size: 22px !important; }.font-size-24, .size-24, .size-24 > font { font-size: 24px !important; }.font-size-20, .size-20, .size-20 > font { font-size: 20px !important; }.font-size-16, .size-16, .size-16 > font { font-size: 16px !important; }.font-size-14, .size-14, .size-14 > font { font-size: 14px !important; }.font-size-26, .size-26, .size-26 > font { font-size: 26px !important; }.font-size-9, .size-9, .size-9 > font { font-size: 9px !important; }
+</style>
+<style id="pageFontSizeStyle" type="text/css">
+</style>
+
+
+
+
+<style id="hideAnimFix">
+  .dmDesktopBody:not(.editGrid) [data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-desktop]:not([data-anim-desktop='none']), .dmDesktopBody:not(.editGrid) .dmNewParagraph[data-anim-extended] {
+    visibility: hidden !important;
+  }
+
+  
+  #dmRoot:not(.editGrid) .flex-element [data-anim-extended] {
+    visibility: hidden;
+  }
+
+  
+</style>
+
+
+
+
+<style id="fontFallbacks">
+    @font-face {
+  font-family: "Creepster Fallback";
+  src: local('Arial');
+  ascent-override: 104.0992%;
+  descent-override: 23.8338%;
+  size-adjust: 91.3717%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Playball Fallback";
+  src: local('Arial');
+  ascent-override: 112.7247%;
+  descent-override: 35.5973%;
+  size-adjust: 84.2761%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Creepster Fallback";
+  src: local('Arial');
+  ascent-override: 104.0992%;
+  descent-override: 23.8338%;
+  size-adjust: 91.3717%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Antic Didone Fallback";
+  src: local('Arial');
+  ascent-override: 87.352%;
+  descent-override: 23.2319%;
+  size-adjust: 107.6106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Roboto Fallback";
+  src: local('Arial');
+  ascent-override: 92.6709%;
+  descent-override: 24.3871%;
+  size-adjust: 100.1106%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lusitana Fallback";
+  src: local('Arial');
+  ascent-override: 101.9286%;
+  descent-override: 36.3574%;
+  size-adjust: 93.7912%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Montserrat Fallback";
+  src: local('Arial');
+  ascent-override: 84.9466%;
+  descent-override: 22.0264%;
+  size-adjust: 113.954%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Arvo Fallback";
+  src: local('Arial');
+  ascent-override: 87.6577%;
+  descent-override: 22.538%;
+  line-gap-override: 2.4498%;
+  size-adjust: 109.6239%;
+}@font-face {
+  font-family: "Oswald Fallback";
+  src: local('Arial');
+  ascent-override: 145.0682%;
+  descent-override: 35.1423%;
+  size-adjust: 82.2372%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Eater Fallback";
+  src: local('Arial');
+  ascent-override: 100.9625%;
+  descent-override: 32.0168%;
+  size-adjust: 140.1549%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Abril Fatface Fallback";
+  src: local('Arial');
+  ascent-override: 102.6391%;
+  descent-override: 28.2306%;
+  size-adjust: 103.0796%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lobster Two Fallback";
+  src: local('Arial');
+  ascent-override: 123.9905%;
+  descent-override: 30.9976%;
+  size-adjust: 80.6513%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Abril Fatface Fallback";
+  src: local('Arial');
+  ascent-override: 102.6391%;
+  descent-override: 28.2306%;
+  size-adjust: 103.0796%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Alegreya Sans Fallback";
+  src: local('Arial');
+  ascent-override: 103.4546%;
+  descent-override: 34.4849%;
+  size-adjust: 86.9947%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Alice Fallback";
+  src: local('Arial');
+  ascent-override: 89.5621%;
+  descent-override: 23.0556%;
+  size-adjust: 101.4938%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Helvetica Fallback";
+  src: local('Arial');
+  ascent-override: 77.002%;
+  descent-override: 22.998%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Arial Fallback";
+  src: local('Arial');
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lobster Fallback";
+  src: local('Arial');
+  ascent-override: 114.651%;
+  descent-override: 28.6627%;
+  size-adjust: 87.2212%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lato Fallback";
+  src: local('Arial');
+  ascent-override: 101.3181%;
+  descent-override: 21.865%;
+  size-adjust: 97.4159%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Tahoma Fallback";
+  src: local('Arial');
+  ascent-override: 99.1712%;
+  descent-override: 20.4731%;
+  size-adjust: 100.885%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Lora Fallback";
+  src: local('Arial');
+  ascent-override: 95.2907%;
+  descent-override: 25.9539%;
+  size-adjust: 105.5717%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Georgia Fallback";
+  src: local('Arial');
+  ascent-override: 92.2092%;
+  descent-override: 22.0458%;
+  size-adjust: 99.4469%;
+  line-gap-override: 0%;
+ }@font-face {
+  font-family: "Comfortaa Fallback";
+  src: local('Arial');
+  ascent-override: 74.2135%;
+  descent-override: 19.7117%;
+  size-adjust: 118.7115%;
+  line-gap-override: 0%;
+ }
+</style>
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+  <link type="application/rss+xml" rel="alternate" href="https://www.kayandkompany.com/feed/rss2">
+  <link type="application/atom+xml" rel="alternate" href="https://www.kayandkompany.com/feed/atom">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.kayandkompany.com/meet-our-hair-salon-best-hairdressers-team">
+  <meta property="og:image" content="images/WEB%2BTEAM%2BXMAS%2B2019%2B2-1920w.jpg">
+  <title>
+    
+    Best Hairdressers | Hair Stylist Team | Muswell Hill N10 London
+  
+  </title>
+  <meta name="keywords" content="best hairdressers london, top hair stylists london n10, best ladies hairdressers london n10, best hair stylists muswell hill, best hairdressers muswell hill. best hairdressers n10, best mens hairdressers london n10, salons in muswellhill, vidal sassoon hair stylists london, haircuts vidal sassoon in london n10, olaplex salons north london, wedding hair up n10 n22, best curly hair salon london n10, hair extensions best salons London, great lengths london n10, great lengths hair extensions london, hair extensions london kayandkompany, waxing beauty salon in n10 n22, human hair extensions london, beauty works hair extensions London,">
+  <meta name="description" content="Meet our great hair salon team KayandKompany award-winning hairdressers. They provide the best salon experience in N10 Muswell Hill, London, Highgate N6, N8.">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Best Hairdressers | Hair Stylist Team | Muswell Hill N10 London">
+  <meta name="twitter:description" content="Meet our great hair salon team KayandKompany award-winning hairdressers. They provide the best salon experience in N10 Muswell Hill, London, Highgate N6, N8.">
+  <meta property="og:description" content="Meet our great hair salon team KayandKompany award-winning hairdressers. They provide the best salon experience in N10 Muswell Hill, London, Highgate N6, N8.">
+  <meta property="og:title" content="Best Hairdressers | Hair Stylist Team | Muswell Hill N10 London">
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot" data-page-alias="meet-our-hair-salon-best-hairdressers-team" class="dmRoot dmDesktopBody fix-mobile-scrolling addCanvasBorder dmResellerSite mac dmLargeBody responsiveTablet " style="padding:0;margin:0;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========= Site Content ========= -->
+<div id="dm" class="dmwr">
+    
+    <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+         <div dmwrapped="true" id="1808239577"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations dmPageBody d-page-1898805923 inputs-css-clean dmFreeHeader" id="dm-outer-wrapper" data-page-class="1898805923" data-soch="true" data-background-parallax-selector=".dmHomeSection1, .dmSectionParallex"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true"> <div dm:templateorder="75" class="dmHeaderResp dmHeaderStack" id="1912743073"> <div class="u_1298918053 dmRespRow dmHeaderContent freeHeaderRow1" id="1298918053"> <div class="dmRespColsWrapper clearfix" id="1921031369"> <div class="u_1587469129 dmRespCol small-12 medium-12 large-12" id="1587469129"> <span id="1012391999"></span> 
+ <div class="u_1635999257 imageWidget logo-imageWidget" data-widget-type="image" id="1635999257" data-element-type="image"> <a id="1396980251" href="/"><img class="u_1811756530 dmHeaderDefaultImg freeHeaderImage" src="images/logo-updated-792x122-1920w.png" id="1811756530" dm_changed="true" alt="kayandkompany-salon-organic-hair-beauty-muswellhill-london-n10-northlondon-hairdressers " title="Kay and Kompany salon organic hair and beauty Muswell Hill London n10" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1275914410" id="1275914410"> <div class="dmRespColsWrapper" id="1179621534"> <div class="dmRespCol large-12 medium-12 small-12" id="1972180316"> <div class="dmNewParagraph u_1512877219" data-element-type="paragraph" id="1512877219" style="transition:opacity 1s ease-in-out 0s;line-height:initial;" data-version="5"> <h1 class="m-size-29 size-36"><span class="m-font-size-29 font-size-36" style="color:rgb(255, 255, 255);font-weight:700;display:initial;font-family:Comfortaa, 'Comfortaa Fallback';font-style:normal;">Since 1986</span></h1> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1150125247 dmRespRow dmHeaderContent freeHeaderRow2 fullBleedChanged fullBleedMode" id="1150125247"> <div class="dmRespColsWrapper clearfix" id="1757400239"> <div class="dmRespCol large-12 medium-12 small-12" id="1744476578"> <nav class="u_1600977857 effect-text-color main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_2" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1600977857" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-nav-structure="HORIZONTAL" wr="false" icon="true" surround="false" adwords="" navigation-id="unifiedNav"> <ul role="menubar" class="unifiednav__container  " data-auto="navigation-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Home
+        " data-auto="page-text-style">Home<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" aria-haspopup="true" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/our-hair-salon-hairdressers-services-story" class="unifiednav__item  dmUDNavigationItem_02  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Our Story - Since 1986
+        " data-auto="page-text-style">Our Story - Since 1986<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul role="menu" aria-expanded="false" class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto="sub-pages"> <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="1"> <a href="/haircuts-hair-blow-drys-hairstyles" class="unifiednav__item  dmUDNavigationItem_010101523326  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+           Haircuts, Blow Drys & Styling
+          " data-auto="page-text-style">Haircuts, Blow Drys & Styling<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/perms-spiral-perms-curly-hair-perms-perming-salon" class="unifiednav__item  dmUDNavigationItem_010101755743  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Perms Curly Hair
+        " data-auto="page-text-style">Perms Curly Hair<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/mens-perms-mens-haircuts-mens-hair-mens-haircolours" class="unifiednav__item  dmUDNavigationItem_010101138329  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Mens Perms, Colours & Cuts
+        " data-auto="page-text-style">Mens Perms, Colours & Cuts<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/straight-hair-keratin-olaplex-inoar-hair-treatments" class="unifiednav__item  dmUDNavigationItem_010101871747  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Straight Hair Treats, Inoar , Olaplex
+        " data-auto="page-text-style">Straight Hair Treats, Inoar , Olaplex<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/organic-hair-colours-balayage-highlights-olaplex-ombre" class="unifiednav__item  dmUDNavigationItem_010101908662  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Balayage, Organic Hair Colours
+        " data-auto="page-text-style">Balayage, Organic Hair Colours<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/hair-extensions-salons-london-great-lengths-tape-wefts" class="unifiednav__item  dmUDNavigationItem_010101854179  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Hair Extensions
+        " data-auto="page-text-style">Hair Extensions<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/meet-our-hair-salon-best-hairdressers-team" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101443649  " target="" data-target-page-alias="" data-auto="selected-page"> <span class="nav-item-text " data-link-text="
+         Meet Our Team
+        " data-auto="page-text-style">Meet Our Team<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/our-hair-salon-hairstyles-photos-gallery" class="unifiednav__item  dmUDNavigationItem_01  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Our Hair Gallery
+        " data-auto="page-text-style">Our Hair Gallery<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/our-organic-haircolours-olaplex-hair-products" class="unifiednav__item  dmUDNavigationItem_010101211220  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Our Hair Products
+        " data-auto="page-text-style">Our Hair Products<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li role="menuitem" class=" unifiednav__item-wrap " data-auto="more-pages" data-depth="0"> <a href="/contact-us-kayandkompany-best-hair-salon-beauty" class="unifiednav__item  dmUDNavigationItem_03  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+         Contact Us
+        " data-auto="page-text-style">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Meet Our Team</div> 
+</div> 
+ <div class="titleLine display_None"><hr></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="dmFirstContainer" class="dmBody u_dmStyle_template_meet-our-hair-salon-best-hairdressers-team"> <div id="allWrapper" class="allWrapper"><!-- navigation placeholders --> <div id="dm_content" class="dmContent" role="main"> <div dm:templateorder="112" class="dmDefaultRespTmpl mainBorder" id="1898805923"> <div class="innerPageTmplBox dmDefaultPage dmAboutListPage dmRespRowsWrapper" id="1725736275"> <div class="u_1504983380 dmRespRow" id="1504983380"> <div class="dmRespColsWrapper" id="1712399056"> <div class="dmRespCol large-12 medium-12 small-12" id="1910893664"> <h3 class="u_1253477289 dmNewParagraph" id="1253477289" style="transition:opacity 1s ease-in-out; border-image: none; float: none;" data-element-type="paragraph"> <div><font class="font-size-30 lh-1">Meet Our�</font><font class="font-size-30 lh-1">Kay and Kompany<span style="font-size: 25px;">�</span></font><font class="font-size-30 lh-1">Best Hair�</font><span style="font-size: 30px;">Salon Team</span></div> 
+</h3> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1825738838 dmRespRow" id="1825738838"> <div class="dmRespColsWrapper" id="1727830480"> <div class="dmRespCol large-12 medium-12 small-12" id="1493582341"> <h1 class="u_1220579297 dmHomeTopText" id="1220579297" data-anim-desktop="none" style="visibility: visible !important;"><font><span class="m-size-36 lh-1 size-40" style=""><span style="font-weight: 400;"><span class="size-36 lh-1" style=""><font style=""><span style="font-weight: 400;">�</span><span style="font-family:Playball, 'Playball Fallback';">"First Class Service With A Smile"</span></font></span><span style="font-family:Playball, 'Playball Fallback';">�</span></span></span></font><br></h1></div> 
+</div> 
+</div> 
+ <div class="u_1102801057 dmRespRow" style="text-align: center;" id="1102801057"> <div class="dmRespColsWrapper" id="1083264409"> <div class="dmRespCol small-12 medium-12 large-12" id="1479174800"> <div class="u_1139123568 dmNewParagraph" id="1139123568" style=""><div style="text-align: center;"><font class="size-18 lh-1" style="color: rgb(241, 241, 241);">Our award-winning Kay and Kompany salon team in Muswell Hill, London N10 are dedicated, committed, and passionate about their hairdressing profession and beauty industry. And, most importantly to you, their clients.</font></div><div style="text-align: center;"><font class="size-18 lh-1" style="color: rgb(241, 241, 241);">�</font></div><div style="text-align: center;"><span class="size-18 lh-1"><span style="color: rgb(241, 241, 241);">Choose your�</span><span style="color: rgb(241, 241, 241);">Kay and Kompany master hairstylists and beauty therapist - <b><i>"We Strive To Be The Best."</i></b></span><br></span></div><div style="text-align: center;"><span class="size-18 lh-1"><span style="color: rgb(241, 241, 241);">�</span><br></span></div><div style="text-align: center;"><font style="color: rgb(241, 241, 241);"><b><span class="size-18 lh-1" style="font-weight: 700;"><i>Team Kay and Kompany look forward to meeting you soon.</i></span></b></font><br></div></div> <a data-display-type="block" class="u_1405614629 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="http://instagram.com/kayandkompany/" id="1405614629" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1582983581"> <span class="icon hasFontIcon icon-star" id="1258587610"></span> 
+</span> 
+ <span class="text" id="1170394814">Follow Our K&KO Salons Shenanigans on Insta!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1176096614" id="1176096614"> <div class="dmRespColsWrapper" id="1607551767"> <div class="dmRespCol large-12 medium-12 small-12" id="1089482262"> <div class="u_1719857799 imageWidget hasFullWidthMobile" data-widget-type="image" id="1719857799" data-anim-desktop="none" data-element-type="image"> <a href="/contact-us-kayandkompany-best-hair-salon-beauty" id="1571482214" file="false"><img src="images/kayandkompany%2Bbest%2Bhairdressers%2Bmuswell%2Bhill%2Blondon%2Bn10%2Bsalon%2Bweb%2B2018-1920w.jpg" id="1177685424" dm_changed="true" class="u_1177685424" alt="kayandkompany hairdressers muswellhill top salon london and northlondon n10 merry christmas and happy new year 2017 greetings" title="kayandkompany hairdressers muswellhill top salon london and northlondon n10 merry christmas and happy new year 2017 greetings" data-dm-image-path="https://irp-cdn.multiscreensite.com/524d2f23/dms3rep/multi/kayandkompany+best+hairdressers+muswell+hill+london+n10+salon+web+2018.jpg" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1076046884" id="1076046884"> <div class="dmRespColsWrapper" id="1502512921"> <div class="dmRespCol large-12 medium-12 small-12" id="1909299824"> <h3 class="u_1734731133 dmNewParagraph" id="1734731133" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><font class="font-size-22 lh-1">Saying <i> <b> <font style="color: rgb(255, 255, 255);">'Thank You'</font> 
+</b> 
+</i> 
+Creates Love</font><br></div> 
+ <div><i><font class="font-size-24 lh-1" style="color: rgb(231, 154, 74);"><br></font></i></div> 
+ <div><span><font class="font-size-24 lh-1" style=""><span><i><b>"Thank You!"</b></i></span><i>�</i></font></span><i><font class="font-size-22 lh-1">For Choosing Us and For All Your Support and Helping Us Make 2025</font></i></div> 
+ <div><i><font class="font-size-22 lh-1">Another Great Year At K&KO!</font></i></div> 
+ <div><i></i></div> 
+ <div><span><font class="font-size-22 lh-1" style=""><i><font style=""><br></font></i></font></span></div> 
+ <div><span><font class="font-size-22 lh-1" style=""><i><font style="">Love & Warm Wishes</font>�</i></font></span></div> 
+ <div><font class="font-size-22 lh-1"><i>From All 0ur</i></font></div> 
+ <div><span><font class="font-size-22 lh-1" style=""><i>Kay and Kompany�</i></font></span></div> 
+ <div><span><font class="font-size-22 lh-1" style=""><i>London Salon Team</i></font></span></div> 
+</h3> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1979838063 dmRespRow" id="1979838063"> <div class="dmRespColsWrapper" id="1611570478"> <div class="dmRespCol large-12 medium-12 small-12" id="1972364925"> <div class="u_1283158917 dmNewParagraph" id="1283158917" data-anim-desktop="none"><div align="center"><span style=""><font class="lh-1 font-size-24 m-specific m-font-size-20" style="color: rgb(255, 255, 255);"><i>'We're Really Good At Our Job And We're Really, Really Nice!'</i></font></span></div></div></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1400486814"> <div class="dmRespColsWrapper" id="1188986386"> <div class="dmRespCol large-12 medium-12 small-12" id="1761330262"> <div class="dmDividerWrapper clearfix u_1546704738" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1546704738"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1811700001"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1325243512 dmRespRow" id="1325243512"> <div class="dmRespColsWrapper" id="1524261934"> <div class="dmRespCol large-12 medium-12 small-12 u_1749033082" id="1749033082"> <h3 class="u_1232488192 defaultH3" id="1232488192" style="border-image: none; float: none;"><font style="color: rgb(231, 154, 74);"><font style="color: rgb(255, 255, 255);"><span class="size-22 lh-1"><i>Boss Lady</i> 
+ <font style="color: rgb(231, 154, 74);"><i>Kay Eracleous</i></font> 
+-�</span><span class="size-22 lh-1">Founder of KayandKompany�</span></font></font><div><span class="size-22 lh-1"><font style="color: rgb(231, 154, 74);"><font style="color: rgb(255, 255, 255);">Award-Winning Salon�<span style="background-color: transparent;">in�</span><span style="background-color: transparent;">Muswell Hill London N10 - Since 1986</span></font></font></span></div></h3></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1944592394" id="1944592394"> <div class="dmRespColsWrapper" id="1529682205"> <div class="dmRespCol small-12 medium-12 large-12" id="1900572068"> <div class="u_1033418855 imageWidget dmFullHomeSectionImg dmLeftSideImg" id="1033418855" data-anim-desktop="none" data-element-type="image"> <a href="https://muswellife.com/local-gems/" id="1354784281" file="false"><img src="images/6bfb0b8a1fdb4b18bb71e1b3b47872e0-269x331.dm.edit_fQ4ydL-1920w.jpg" id="1914709735" dm_changed="true" class="u_1914709735" alt=">best hair and beauty salons in n10 london muswell hill | kay and kompany | top hairdresser Kay" title=">Best hair and beauty salons in Muswell Hill London N10 | kay and kompany | top hairdressers Kay" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1435599355 dmRespRow" id="1435599355"> <div class="dmRespColsWrapper" id="1106220282"> <div class="dmRespCol large-12 medium-12 small-12" id="1411692873"> <div class="u_1511306910 dmNewParagraph" id="1511306910" style="transition:opacity 1s ease-in-out; border-image: none; float: none;" data-element-type="paragraph"> <div>Kay trained with Vidal Sassoon, has <i><b>40 years</b></i> 
+experience, a wealth of knowledge in all aspects of hairdressing, beauty and customer care.</div> 
+ <div><br></div> 
+ <div>Over the years, Kay has cut and styled many celebrities hair, (only because many celebs live in friendly Muswell Hill!) but she remains grounded, humble and always grateful for everyone's business.</div> 
+ <div><br></div> 
+ <div>Kay's values run through the salon extensively: <i><b>"Be really, really good at your job and always be really kind to yourself and others."</b></i></div> 
+ <div><i></i><b></b><br></div> 
+ <div>Kay is passionate about her award winning hair salon, her clients and her team. Including, the hair and beauty industry and providing a quality local London hair and beauty service - Moreover, making people look and feel fabulous!</div> 
+ <div><br></div> 
+ <div>Kays favourite saying is, <b><i>It Takes Special Hairdressers to Work with KayandKompany�</i></b> 
+and she believes in,�</div> 
+ <div><b><i>'A Quality Service comes from Quality Training</i></b>'.</div> 
+ <div><br></div> 
+ <div>Kay will only employ and train passionate hairstylists; only the <b><i>best hairdressers and therapists</i></b> 
+will do for Kay and Kompany clients and salon.</div> 
+ <div>�</div> 
+ <div>Kay handles team training and recruitment, as well as keeping and maintaining the high standards and ethos of her, Kay and Kompany Organic Hair and Beauty Salon.</div> 
+ <div><br></div> 
+ <div>She is always on hand to help or advise her team, clients and other hair salon colleagues.<br></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1479070648 dmRespRow" id="1479070648"> <div class="dmRespColsWrapper" id="1385936587"> <div class="dmRespCol large-12 medium-12 small-12" id="1765455091"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1121340967"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1744666271"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1721948500 dmRespRow" id="1721948500"> <div class="dmRespColsWrapper" id="1221661102"> <div class="dmRespCol large-12 medium-12 small-12" id="1481554601"> <h3 class="u_1701057833 defaultH3" id="1701057833" style="border-image: none; float: none;"><div><span class="size-22 lh-1"><font class="lh-1 font-size-22" style="color: rgb(231, 154, 74);">ELLI</font></span></div><div><font class="font-size-18 lh-1">P<span class="lh-1"><font class="lh-1" style="color: rgb(255, 255, 255);">artner/Manager�</font><font class="lh-1" style="color: rgb(255, 255, 255);"><font class="lh-1">|</font>�Top Senior Stylist | Artistic Master Hair Colour Technician</font></span></font></div></h3></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1147506364" id="1147506364"> <div class="dmRespColsWrapper" id="1614510293"> <div class="u_1616037822 dmRespCol small-12 medium-12 large-12" id="1616037822"> <div class="u_1779764893 imageWidget dmFullHomeSectionImg dmLeftSideImg" id="1779764893" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairdressers-services-story" id="1423222683" file="false"><img src="images/meet%2Bour%2Bteam%2BElli%2Bkayandkompany%2Bhair%2Bweb-1920w.jpg" id="1006970983" dm_changed="true" class="u_1006970983" alt="Olaplex hair treatments, long hair blow dry bar in London, Muswell Hill, London n10, n22-n8-n6-n12-kayandkompany salon Elli" title="Elli hair awards hair colour  technician of the year  Olaplex hair treatments, long hair blow dry bar in London N10 salon kayandkompany Elli" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/meet+our+team+Elli+kayandkompany+hair+web.jpg" width="336" height="410" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1106392442" id="1106392442"> <div class="dmRespColsWrapper" id="1479941002"> <div class="u_1257007325 dmRespCol small-12 medium-12 large-12" id="1257007325" data-anim-desktop="fadeInRight"> <div class="u_1803766004 dmNewParagraph" id="1803766004" style="transition: none 0s ease 0s; display: block; visibility: visible !important;" data-element-type="paragraph" data-anim-desktop="none"> <div align="center"><span>Huge congrats to our amazing Manager Elli! - '</span><span style="">Winner of The�</span><span style="text-align: left;">English Hair & Beauty Awards'�</span></div> 
+ <div align="center"><span style="text-align: left;">f</span><span style="text-align: left;">or</span><span style="text-align: left;">�</span></div> 
+ <div align="center"></div> 
+ <div align="center"><b><i style="" class="font-size-20 lh-1">' Hair Colour Technician of the Year '</i></b><b><br></b></div> 
+</div> 
+ <div class="u_1089743434 imageWidget align-center" data-widget-type="image" id="1089743434" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairdressers-services-story" id="1944718775" file="false"><img src="images/elli%20awards%20colour%20technician%20of%20the%20year%202017%20best%20%20london%20salons%20%20muswellhill%20n10%20kayandkompany%20hairdressers-448x257-1920w.jpg" id="1474979392" class="" alt="elli awards colour technician of the year 2017 best  london salons  muswellhill n10 kayandkompany hairdressers" title="elli awards colour technician of the year 2017 best  london salons  muswellhill n10 kayandkompany hairdressers" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1219504287 dmRespRow" id="1219504287"> <div class="dmRespColsWrapper" id="1224745148"> <div class="dmRespCol large-12 medium-12 small-12" id="1515227644"> <div class="u_1172343664 dmNewParagraph" id="1172343664" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div>Elli started her hairdressing career in 1999 at Kay and Kompany as a sweet 16-year-old, Saturday girl. She then went on to <b><i>Vidal Sassoon's</i></b> 
+to complete all her training.�</div> 
+ <div><br></div> 
+ <div>Elli gained a Vidal Sassoon NVQ Diploma's in all aspects of� Mens and Ladies hairdressing including, precision haircuts, hair colours, and hair styling.�</div> 
+ <div><br></div> 
+ <div>In 2010, Kay proudly promoted Elli to a <b><i>KayandKompany</i></b> 
+salon partner.</div> 
+ <div>�</div> 
+ <div>Elli is extremely creative and a master hair colorist, an expert in all of the latest hair colouring techniques.�</div> 
+ <div><br></div> 
+ <div>An artist with long hair colouring such as ombre, balayage, foil hi-lights and complicated<span style="font-weight: 400;">�</span>colour correction.</div> 
+ <div><br></div> 
+ <div>Including, <b>Yuko Japanese</b> 
+hair-straightening system,� Brazilian frizz free blow drys, and Keratin hair treatments.</div> 
+ <div><br></div> 
+ <div>Elli can advise on which salon hair products are most suitable for you such as Olaplex, Redken and KeraStraight hair treatments. Organic hair dyes, Elumen Goldwell fashion haircolours and� Great Lengths 100% natural human hair extensions.</div> 
+ <div><br></div> 
+ <div>Elli is a creative professional, hairdresser and guaranteed to please you with her excellent client care.�</div> 
+ <div><br></div> 
+ <div>Elli has over�<b>22<i>�years hairdresser</i></b> 
+experience, she is friendly, always kind and caring with a bubbly nature.</div> 
+ <div><br></div> 
+ <div><b><i><font class="font-size-20 lh-1">Elli is available every day apart from Mondays.</font></i></b></div> 
+</div> 
+ <a data-display-type="block" class="u_1981878386 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1981878386" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1459845068"> <span class="icon hasFontIcon icon-star" id="1839576041"></span> 
+</span> 
+ <span class="text" id="1935595121">Book Now With Elli!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1270985710" id="1270985710"> <div class="dmRespColsWrapper" id="1726013071"> <div class="dmRespCol small-12 large-6 medium-6" id="1383900435"> <div class="u_1021752370 dmNewParagraph" id="1021752370" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph">Long hair blonde balayage before & after by Elli</div> 
+ <div class="u_1641336053 imageWidget" data-widget-type="image" id="1641336053" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairstyles-photos-gallery" id="1221091808" file="false"><img src="images/WEB%20KAYANDKOMPANY%20SALON%20PIVS%20FEB%202017%20%20IMG_0340_ttmZmitBSYOA22qI5Eya-336x336-1920w.jpg" id="1777638690" dm_changed="true" class="u_1777638690" title="long hair blonde balayage by Elli" alt="long hair blonde balayage hairstyle by elli at kayandkompany hairdressers muswell hill n10 salons " onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1913617027"> <div class="u_1016099791 dmNewParagraph" id="1016099791" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph">�Blonde Hair Don't Care by Elli</div> 
+ <div class="u_1211594048 imageWidget" data-widget-type="image" id="1211594048" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairstyles-photos-gallery" id="1796913139" file="false"><img src="images/WEB-HAIR-PICS-JUNE16-1080x820-1920w.jpg" id="1707499744" dm_changed="true" class="u_1707499744" alt="blonde hair haircolours kayandkompany olaplex salon london n10 muswellhill hairdressers" title="blonde hair don't care by Elli" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/WEB-HAIR-PICS-JUNE16-1080x820.jpg" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <section class="u_1529796812 dmRespRow dmHomeSection3" id="1529796812"> <div class="dmRespColsWrapper" id="1108185332"> <div class="u_1441508233 dmRespCol small-12 medium-12 large-12" id="1441508233"> <div class="dmDividerWrapper clearfix u_1417847396" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1417847396"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1838223176"></div> 
+</div> 
+</div> 
+</section> 
+ <div class="u_1375537360 dmRespRow" id="1375537360"> <div class="dmRespColsWrapper" id="1467135200"> <div class="dmRespCol large-12 medium-12 small-12" id="1070893067"> <div class="dmNewParagraph u_1314909067" id="1314909067" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><font class="font-size-20 lh-1" style="color: rgb(231, 154, 74);">ANTONIO</font></div> 
+ <div><font class="font-size-18 lh-1">Manager | Senior Artistic Hairstylist | Master Hair Colourist | Brazilian Inoar Moroccan Specialists | Perm Technician�</font></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1351112681" id="1351112681"> <div class="dmRespColsWrapper" id="1027067550"> <div class="dmRespCol large-12 medium-12 small-12" id="1252428392"> <div class="u_1253726970 imageWidget" data-widget-type="image" id="1253726970" data-anim-desktop="none" data-element-type="image"> <a href="/our-organic-haircolours-olaplex-hair-products" id="1622336118" file="false"><img src="images/WEB%252BPROFILE%252BPIC%252BANTONIO%252BBEST%252BLONDON%252BN10%252BHAIRDRESSER%252BAT%252BKAYANDKOMPANY%252BHAIR%252B3-1920w.jpg" id="1837146202" dm_changed="true" class="u_1837146202" alt=">hair salons in London muswell hill N10 | kayandkompany | hairdressers organic | meet our team Antonio " title=">hair salons in London muswell hill N10 | kayandkompany | organic hairdressers | meet our hair team Antonio " data-dm-image-path="https://irp-cdn.multiscreensite.com/524d2f23/dms3rep/multi/WEB%2BPROFILE%2BPIC%2BANTONIO%2BBEST%2BLONDON%2BN10%2BHAIRDRESSER%2BAT%2BKAYANDKOMPANY%2BHAIR%2B3.jpg" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1075583398" id="1075583398"> <div class="dmRespColsWrapper" id="1480096472"> <div class="dmRespCol large-12 medium-12 small-12" id="1889285362"> <div class="u_1897651665 dmNewParagraph" id="1897651665" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><b>Antonio Our Fabulous Top Senior Hairstylist and Manager�</b></div> 
+ <div><b>Joined Our Team in 2020</b></div> 
+ <div><b><br></b></div> 
+ <div><b><i>He is really good at his job and his really really nice!</i></b></div> 
+ <div><br></div> 
+ <div><b>Antonio has 19 years</b> 
+in-salon experience and has achieved with merits both national and international qualifications in all aspects of hairdressing, an excellent <span><b>Mens barber</b> 
+too!</span></div> 
+ <div><span><br></span></div> 
+ <div><span>And if it's a curly hair <b>Man Perm</b> 
+you're looking for then Antonio is your man!�</span></div> 
+ <div><br></div> 
+ <div>Antonio has worked and trained in top salons both here in <b>London</b> 
+and <b>Portugal</b>, he speaks good English and Spanish.</div> 
+ <div><br></div> 
+ <div>With his passion for hair, Antonio is proving to be an extremely <b>popular hairstylist</b> 
+with all our K&Ko clients.</div> 
+ <div><br></div> 
+ <div>He excels in all ladies and mens precision haircuts, including, complicated <b>S</b><b>kin Fades for the guys</b>.�</div> 
+ <div><br></div> 
+ <div>Antonio is passionate about creative hair colouring. He enjoys creating long-hair <b>hand-painted Balayage</b>, haircolours, foil-highlights and high fashion rainbow colours.</div> 
+ <div><br></div> 
+ <div>Antonio also specialises in the <b>Brazilian frizz-free Moroccan Inoar</b> 
+hair treatments, a new service he has introduced to our salon.<br></div> 
+ <div><br></div> 
+ <div>Antonio is gentle, kind, caring and a professional hairdresser, easy to talk too. He will make you feel at ease and make your customer experience with him the best it can be.</div> 
+ <div><br></div> 
+ <div>Request <i><b>Antonio</b> 
+</i> 
+by name when booking your next hair appointment, we all love him and know youll love him too!�</div> 
+ <div><br></div> 
+ <div><b><i>�Antonio is Available Every Tuesday, Wednesday, Thursday, Friday & Saturdays</i></b></div> 
+</div> 
+ <a data-display-type="block" class="u_1964487256 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1964487256" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1754915495"> <span class="icon hasFontIcon icon-star" id="1143699098"></span> 
+</span> 
+ <span class="text" id="1873161367">Book With Antonio Today!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1926419617" id="1926419617"> <div class="dmRespColsWrapper" id="1833671624"> <div class="dmRespCol small-12 large-4 medium-4" id="1051042277"> <div class="u_1206502864 imageWidget" data-widget-type="image" id="1206502864" data-anim-desktop="none" data-element-type="image"> <a href="/hair-extensions-salons-london-great-lengths-tape-wefts" id="1759727792" file="false"><img src="images/Balayage%2BLong%2BHair%2Bmuswell%2Bhill%2Blondon%2Bn10%2Bn22%2Bbest%2Bhairdressers%2Bweb-1920w.jpg" id="1446782533" dm_changed="true" class="u_1446782533" title="hair extensions great lengths by Antonio at KayandKompany salon" alt="hairextensions greatlengths by kayandkompany hairdressers london muswellhill n10 hair extension salon" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/Balayage+Long+Hair+muswell+hill+london+n10+n22+best+hairdressers+web.jpg" width="336" height="339" onerror="handleImageLoadError(this)"></a> 
+</div> 
+ <div class="u_1470552703 dmNewParagraph" id="1470552703" data-styletopreserve="{" background-image":""}"=""><span style=""><font class="font-size-16 lh-1"><span style="font-weight: 400;">�</span>Beautiful Balayage by Antonio</font></span></div></div> 
+ <div class="dmRespCol small-12 large-4 medium-4" id="1541876386"> <div class="u_1880238541 imageWidget" data-widget-type="image" id="1880238541" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairstyles-photos-gallery" id="1676471411" file="false"><img src="images/WEB%2BTEAM%2BBIO%2BPIC%2BANTONIO%2BKAYANDKOMPANY%2BLONDON%2BN10%2BBEST%2BHAIRDRESSER-1920w.jpg" id="1252801911" dm_changed="true" class="u_1252801911" alt="best London hair stylists in Muswell Hill Antonio at KayandKompany hair salons" title="best London hair stylists in Muswell Hill Antonio at kayandkompany hair salons" data-dm-image-path="https://irp-cdn.multiscreensite.com/524d2f23/dms3rep/multi/WEB+TEAM+BIO+PIC+ANTONIO+KAYANDKOMPANY+LONDON+N10+BEST+HAIRDRESSER.jpg" onerror="handleImageLoadError(this)"></a> 
+</div> 
+ <h3 class="u_1770752996 dmNewParagraph" id="1770752996" style="transition:opacity 1s ease-in-out; border-image: none; float: none;" data-element-type="paragraph"><div align="center"><font style="color: rgb(255, 255, 255);" class="m-specific m-font-size-18 lh-1">Antonio Master Stylists At Work�</font></div></h3></div> 
+ <div class="dmRespCol large-4 medium-4 small-12" id="1581360085"> <div class="u_1472854754 imageWidget" data-widget-type="image" id="1472854754" data-anim-desktop="none" data-element-type="image"> <a href="/organic-hair-colours-balayage-highlights-olaplex-ombre" id="1149736332" file="false"><img src="images/WEB%20KAYANDKOMPANY%20SALON%20PIC%20FEB%202017%20%20IMG_0469_AMjQozF0RgmLFBpZqImZ-336x448-1920w.jpg" id="1106445335" dm_changed="true" class="u_1106445335" alt="very long hair blonde balayage olaplex hairstyles haircolour kayandkompany hair colour specialists london n10 muswellhill best salons" title="Very long hair blonde hand painted balayage with olaplex by Antonio" onerror="handleImageLoadError(this)"></a> 
+</div> 
+ <h3 class="u_1103667069 dmNewParagraph" id="1103667069" data-element-type="paragraph" data-styletopreserve="{" background-image":""}"=""><div align="center"><font class="font-size-18 lh-1" style="color: rgb(255, 255, 255);">Very Long Hair Hand Painted Blonde Balayage with Olaplex by Antonio</font></div></h3></div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1189131633"> <div class="dmRespColsWrapper" id="1825435692"> <div class="dmRespCol large-12 medium-12 small-12" id="1556854771"> <div class="dmDividerWrapper clearfix u_1135928072" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1135928072"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1215619345"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1188207262 dmRespRow" id="1188207262"> <div class="dmRespColsWrapper" id="1998428294"> <div class="dmRespCol large-12 medium-12 small-12" id="1752445508"> <h3 class="u_1219817519 dmNewParagraph" id="1219817519" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><font class="font-size-20 lh-1" style="color: rgb(231, 154, 74);">ADIBA�</font></div> 
+ <div><font class="font-size-18 lh-1">Senior Stylist | Master Spiral Perm Technician | Top Hair Colorists | Great Lengths, Micro-Ring & Nano-Bead Hair Extensions Specialist�</font></div> 
+</h3> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1617271783" id="1617271783"> <div class="dmRespColsWrapper" id="1157684325"> <div class="dmRespCol large-12 medium-12 small-12" id="1282141125"> <div class="u_1606199701 imageWidget dmFullHomeSectionImg dmLeftSideImg" id="1606199701" data-anim-desktop="none" data-element-type="image"><img src="images/ADIBA%2BWEB%2BKAYANDKOMPANY%2BBEST%2BHAIR%2BSALON%2BLONDON%2BN10-1920w.jpg" id="1234477303" dm_changed="true" class="u_1234477303" alt="hair and beauty, olaplex hair treatments, kayandkompany salon, london salons in muswellhill n10, n8, n22, n6, n14, n20 n11, n12 and n2 n3 hairstylists Stacey." title="Kay and Kompany hair and beauty salon in Muswellhill London N10, hairstylist Stacey" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/ADIBA+WEB+KAYANDKOMPANY+BEST+HAIR+SALON+LONDON+N10.jpg" width="277" height="448" onerror="handleImageLoadError(this)"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1326485874 dmRespRow" id="1326485874"> <div class="dmRespColsWrapper" id="1082176224"> <div class="dmRespCol large-12 medium-12 small-12" id="1443932993"> <div class="u_1574188403 dmNewParagraph" id="1574188403" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><b><span style="font-weight: 400;">�</span>Joined our team in 2019�</b></div> 
+ <div>�</div> 
+ <div>Adiba has 10 years hairdressing experience and gained her qualifications, NVQ 2 & 3�</div> 
+ <div><br></div> 
+ <div>Adiba has achieved diplomas with merits in; <b>Perming,�</b>Goldwell <b><i>Elumen Haircolours�</i></b>and consultations</div> 
+ <div><br></div> 
+ <div>Including, a master in long hair, curly spiral perms and advanced organic hair colouring techniques such as ombre, balayage and long hair foil hi-lights.�</div> 
+ <div><br></div> 
+ <div>Her hair treatments include <b><i>Brazilian keratin� KeraStraight,�</i></b>Redken and <b><i>Olaplex</i></b>� advance hair treatments</div> 
+ <div><br></div> 
+ <div>Adiba also enjoys doing <b>Brides</b>, hair-up & hair braids</div> 
+ <div><br></div> 
+ <div>Adiba also specializes in both <b><i>Great Lengths</i></b> 
+and Remy Hair Micro Ring & Nano-Bead <b><i>Hair Extensions</i></b></div> 
+ <div><br></div> 
+ <div>With Micro & Nano Ring/Beads Extensions, there is no heat, no glue and no hair damage!</div> 
+ <div><br></div> 
+ <div>Kay and Kompany are very proud of Adiba and her achievements - She is hard-working, organized, a dedicated and passionate hairdresser.</div> 
+ <div><br></div> 
+ <div><i>Pop in and see Adiba for a Perm, Hair Colour or Hair extensions Consultation.�</i></div> 
+ <div>�</div> 
+ <div>Adiba has excellent customer care skills; she is friendly, bubbly with a professional approach.�</div> 
+ <div><br></div> 
+ <div>When booking your next appointment ask for Adiba by name, we assure you would be delighted with her services and your hair</div> 
+ <div><br></div> 
+ <div><i><b>Adiba is available every Wednesday, Thursday, Friday and Saturdays</b></i></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1075375726 dmRespRow" id="1075375726"> <div class="dmRespColsWrapper" id="1020102754"> <div class="dmRespCol large-12 medium-12 small-12" id="1449931220"> <a data-display-type="block" class="u_1889966858 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1889966858" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1340016686"> <span class="icon hasFontIcon icon-star" id="1762069551"></span> 
+</span> 
+ <span class="text" id="1824942646">Book With Adiba Today!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1544553908" id="1544553908"> <div class="dmRespColsWrapper" id="1487748776"> <div class="dmRespCol small-12 large-6 medium-6" id="1958657756"> <div class="u_1681350995 dmNewParagraph" id="1681350995" style="transition:none; border-image: none; float: none;"><font class="font-size-14 lh-1"><font class="font-size-16 lh-1"><font style="color: rgb(255, 255, 255);"><span style="">Stunning Very Long Hair Spiral Perm by Adiba</span></font></font></font><font class="font-size-14 lh-1"><font class="font-size-16 lh-1"><font style="color: rgb(233, 86, 20);">�</font></font></font></div> <div class="u_1430554355 imageWidget" data-widget-type="image" id="1430554355" data-anim-desktop="none" data-element-type="image"> <a id="1271130576" file="false" class="" href="/perms-spiral-perms-curly-hair-perms-perming-salon"><img src="images/sprial%2Bperms%2Blong%2Bhair%2Bby%2Bkayandkompany%2Blondon%2Bbest%2Bperm%2Bsalons-1920w.jpg" id="1322093468" dm_changed="true" class="u_1322093468" alt="Hair perm, curly hair salons, curls, wavy hair, long hair, perm hair, kayandkompany perm salons in muswellhill, London n10, n22, north london salon perms hairdressers, perming salons" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/sprial+perms+long+hair+by+kayandkompany+london+best+perm+salons.jpg" width="336" height="420" title="Curly hair, perms, curls, wavy hair, long hair, perm hair, kay and kompany perming salons, muswellhill, London n10 salon perms hairdressers, perm by Adiba" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12 u_1616878416" id="1616878416"> <div class="u_1957703426 dmNewParagraph" id="1957703426" background-image":""}"="" style="display: block; transition: none;"><span style=""><font class="font-size-16 lh-1"><span style="font-weight: 400;">�</span>Natural Looking Hair Extensions by Adiba</font></span></div> <div class="u_1299584296 imageWidget" data-widget-type="image" id="1299584296" data-anim-desktop="none" data-element-type="image"> <a href="/hair-extensions-salons-london-great-lengths-tape-wefts" id="1220076309" file="false"><img src="images/WEB%20A%20ELLI%20GREATLENGTHS%20IMG_5899-336x336-1920w.jpg" id="1583564229" dm_changed="true" class="u_1583564229" title="hairextensions greatlengths by stacey at KayandKompany salon" alt="hairextensions greatlengths by kayandkompany hairdressers london muswellhill n10 hair extension salon" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1422173272"> <div class="dmRespColsWrapper" id="1563719570"> <div class="dmRespCol large-12 medium-12 small-12" id="1613992736"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1037376468"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1017813688"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1487589990 dmRespRow" id="1487589990"> <div class="dmRespColsWrapper" id="1854517815"> <div class="dmRespCol large-12 medium-12 small-12" id="1321271040"> <h3 class="dmNewParagraph u_1151121583" id="1151121583" style="transition: opacity 1s ease-in-out 0s;" data-element-type="paragraph"> <div><font class="lh-1 font-size-22" style="color: rgb(231, 154, 74);">JULIE</font>�</div> 
+ <div><font class="m-specific m-font-size-18 lh-1">Senior Hair Stylist | Master Perm Technician | Master Hair Colourist�</font></div> 
+</h3> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1584492045" id="1584492045"> <div class="dmRespColsWrapper" id="1072675707"> <div class="dmRespCol large-12 medium-12 small-12" id="1996981644"> <div class="u_1483272423 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1483272423" data-anim-desktop="none"><img src="images/julie-1920w.png" id="1946999232" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/524d2f23/dms3rep/multi/julie.png" alt=">best perm hair salons in London muswell hill N10 | kayandkompany | hairdressers organic | meet our team Julie" title=">best hair perm salons in London muswell hill N10 | kayandkompany | organic hairdressers | meet our hair team  Julie" onerror="handleImageLoadError(this)"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1739304028"> <div class="dmRespColsWrapper" id="1698723040"> <div class="dmRespCol large-12 medium-12 small-12" id="1394693221"> <div class="dmNewParagraph u_1053067310" id="1053067310" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><b><i>Julie joined our Kay and Kompany team in 2018</i></b></div> 
+ <div>and is proving to be an extremely popular hairdresser with all our Kay and Kompany clients.�</div> 
+ <div><br></div> 
+ <div>Julie is a <b><i>top senior stylist</i></b> 
+with over <b> <i>28 years</i></b> 
+of in-salon experience.</div> 
+ <div>Before she joined our team Julie managed a top London salon.</div> 
+ <div><br></div> 
+ <div><b><i>I started as a Saturday girl and loved the salon floor with its entire buzz!" Knew then that was where my passion lay, so I did my NVQ at City and East London College."</i></b></div> 
+ <div><b></b><i></i><br></div> 
+ <div>I successfully with merits completed all aspects of hairdressing NVQ. Including, all haircuts, men's hair <i><b>barbering</b></i>, long hair, hair colouring, hair-up, and complicated <b><i>Perm techniques</i></b>.</div> 
+ <div><br></div> 
+ <div>Once new on the floor as a junior stylist, I gained further experience and put into practice all the things I had learnt.�</div> 
+ <div><br></div> 
+ <div>Over the years, I have regularly attended various cutting, colouring and styling courses to keep me up to date, as I always enjoy keeping up with all the latest trends.�</div> 
+ <div><br></div> 
+ <div>Although I am an all-round hairdresser, I love <b>perming</b>, cutting and <b>balayage</b> 
+hair colouring.�</div> 
+ <div><br></div> 
+ <div>�Im a friendly, bubbly, professional hairdresser and easy to talk too - I will make you feel at ease when consulting with you about your hair.�</div> 
+ <div><br></div> 
+ <div>I am caring and will do all that I can to make your customer experience with me the best it can be.�</div> 
+ <div><br></div> 
+ <div><b><i>"Making my clients feel good, and look good, makes me feel good.</i></b></div> 
+ <div><b></b><i></i><br></div> 
+ <div>Ask for Julie by name when booking your next hair appointment. Kay and Kompany are confident that you will be delighted with her expert hair services including, her excellent customer care.</div> 
+ <div><br></div> 
+ <div><b><font class="font-size-20 lh-1">Julie is available every Monday, Thursday</font></b></div> 
+ <div><i>Please check with reception as Julie sometimes does extra days as holiday cover for the team.</i></div> 
+</div> 
+ <a data-display-type="block" class="u_1268594533 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1268594533" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1592656149"> <span class="icon hasFontIcon icon-star" id="1244976975"></span> 
+</span> 
+ <span class="text" id="1092620830">Book Now With Julie!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1053431550" id="1053431550"> <div class="dmRespColsWrapper" id="1859879801"> <div class="dmRespCol large-12 medium-12 small-12 u_1782393937" id="1782393937"> <h3 class="u_1464368942 dmNewParagraph" id="1464368942" style="transition: opacity 1s ease-in-out 0s; border-image: none 100% / 1 / 0 stretch; float: none;" data-element-type="paragraph"><div align="center"><font class="font-size-18 lh-1" style="color: rgb(255, 255, 255);">Spiral Permed Hair Don't Care�</font></div><div align="center"><font class="font-size-18 lh-1" style="color: rgb(255, 255, 255);">Before & After by Julie</font></div></h3></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1670135265" id="1670135265"> <div class="dmRespColsWrapper" id="1835057206"> <div class="dmRespCol small-12 large-6 medium-6" id="1067196072"> <div class="u_1917837442 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1917837442" data-anim-desktop="none"> <a id="1804339904" href="/perms-spiral-perms-curly-hair-perms-perming-salon" file="false"><img src="images/WEB%2BPERMS%2B2019%2B15-1920w.jpg" alt="spiral perms, hair perm, curly hair salons, curls, wavy hair, long hair, perm hair, kayandkompany best perm salons in london, muswellhill, n10, n22, north london salon perms hairdressers, perming salons" id="1232835905" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/524d2f23/dms3rep/multi/WEB+PERMS+2019+15.jpg" title="Curly hair, perms, curls, wavy hair, long hair, perm hair, kay and kompany perming salons, muswellhill, London n10 salon perms hairdressers perm by Julie " onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1589795970"> <div class="u_1410605605 imageWidget align-center" data-element-type="image" data-widget-type="image" id="1410605605" data-anim-desktop="none"> <a id="1252198198" href="/perms-spiral-perms-curly-hair-perms-perming-salon" file="false"><img src="images/WEB%2BPERMS%2B2019%2B8-1920w.jpg" alt="spiral perms, hair perm, curly hair salons, curls, wavy hair, long hair, perm hair, kayandkompany best perm salons in london, muswellhill, n10, n22, north london salon perms hairdressers, perming salons" id="1764489691" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/524d2f23/dms3rep/multi/WEB+PERMS+2019+8.jpg" title="Curly hair, perms, curls, wavy hair, long hair, perm hair, kay and kompany perming salons, muswellhill, London n10 salon perms hairdressers perm by Julie " onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1146265262"> <div class="dmRespColsWrapper" id="1518475712"> <div class="dmRespCol large-12 medium-12 small-12" id="1953261892"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1452358304"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1585051445"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1669217306 dmRespRow" id="1669217306"> <div class="dmRespColsWrapper" id="1867780436"> <div class="dmRespCol large-12 medium-12 small-12" id="1646970915"> <div class="dmNewParagraph u_1219773967" id="1219773967" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><font class="font-size-20 lh-1" style="color: rgb(231, 154, 74);">SEV</font></div> 
+ <div><font class="font-size-18 lh-1">Master Hair Colourist | Long Hair Specialists | Perm Technician</font></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1229272471" id="1229272471"> <div class="dmRespColsWrapper" id="1175609136"> <div class="dmRespCol large-12 medium-12 small-12" id="1257767606"> <div class="u_1845617207 imageWidget" data-widget-type="image" id="1845617207" data-anim-desktop="none" data-element-type="image"> <a href="/organic-hair-colours-balayage-highlights-olaplex-ombre" id="1427552972" file="false"><img src="images/WEB%2BPROFILE%2BPIC%2BSEV%2BBEST%2BHAIRDRESSERS%2BIN%2BLONDON%2BMUSWELL%2BHILL%2BN10-1920w.jpg" id="1810532998" dm_changed="true" class="u_1810532998" alt=">best hair salons in London muswell hill N10 | kayandkompany | hairdressers organic | meet our team  Sev" title=">best hair salons in London muswell hill N10 | kayandkompany | organic hairdressers | meet our hair team sev" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/WEB+PROFILE+PIC+SEV+BEST+HAIRDRESSERS+IN+LONDON+MUSWELL+HILL+N10.jpg" width="336" height="420" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1188779525 dmRespRow" id="1188779525"> <div class="dmRespColsWrapper" id="1693968010"> <div class="dmRespCol large-12 medium-12 small-12" id="1049182626"> <div class="u_1926072813 dmNewParagraph" id="1926072813" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><font style=""><b><i><span style="font-weight: 400;">�</span>Introducing Sev our Fabulous Top Hairstylist!</i></b></font></div> 
+ <div><font style=""><b><i><br></i></b></font></div> 
+ <div><font style="">Sev speaks both English and Turkish, has worked, and trained in top London salons. With her 11 years of in-salon experience and passion for hair, she is becoming an extremely popular hairstylist with all our Kay and Kompany clients.�</font></div> 
+ <div><font style=""><br></font></div> 
+ <div><font style="">Sev is a top stylist, trained at Conel College and successfully with merits completed her NVQ 1 & 2 in all aspects of hairdressing. Including, complicated perming and hair colouring techniques.</font></div> 
+ <div><font style=""><br></font></div> 
+ <div><font style="">Sev is passionate about hair colouring and also specialises in long hair haircuts and styling. She enjoys working with various creative colour techniques such as; <b>Balayage</b>, Ombr�, Sombre, including, <b>foil highlights</b> 
+and high fashion rainbow haircolours.</font></div> 
+ <div><font style=""><br></font></div> 
+ <div><font style="">Sev is a friendly, caring professional hairdresser who is easy to talk too and a good listener when it comes to her clients needs - she will make you feel at ease when consulting with you about your hair.</font></div> 
+ <div><font style=""><br></font></div> 
+ <div><font style="">�<b><i>I will always do my best to achieve the right expectations and needs for my clients�</i></b></font></div> 
+ <div><font style=""><br></font></div> 
+ <div><font style=""><b>Sev is Available on Mon, Wed, Thur, Fri & Saturdays</b></font></div> 
+ <div><font style=""><b><br></b></font></div> 
+ <div><font style=""><i>Request <b>Sev</b> 
+by name when booking your next hair appointment, she will make your customer experience with her the best it can be.�</i></font></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1443792620" id="1443792620"> <div class="dmRespColsWrapper" id="1357074228"> <div class="dmRespCol large-12 medium-12 small-12" id="1069000987"> <a data-display-type="block" class="u_1712261765 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1712261765" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1652882012"> <span class="icon hasFontIcon icon-star" id="1156178060"></span> 
+</span> 
+ <span class="text" id="1180196525">Book With Sev Today!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1159886720" id="1159886720"> <div class="dmRespColsWrapper" id="1836327754"> <div class="dmRespCol small-12 large-6 medium-6" id="1848591262"> <div class="u_1816897393 dmNewParagraph" id="1816897393" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph">Permed Hair Don't Care by Sev</div> 
+ <div class="u_1320484854 imageWidget" data-widget-type="image" id="1320484854" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairstyles-photos-gallery" id="1542652508" file="false"><img src="images/WEB%2BPERM%2BPIC%2BNEW%2B2-1920w.jpg" id="1992515464" dm_changed="true" class="u_1992515464" alt="ombre haircolours balayage hairstyles long hair kayandkompany hairdressers london n10 muswellhill best salons  meet our team Sev" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/WEB+PERM+PIC+NEW+2.jpg" title="Berry sunrise haircolour before and after by Sev" width="221" height="320" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1711962364"> <div class="u_1304114216 dmNewParagraph" id="1304114216" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph">Fun Pink Hair Don't Care by Sev</div> 
+ <div class="u_1124345619 imageWidget" data-widget-type="image" id="1124345619" data-anim-desktop="none" data-element-type="image"> <a href="/our-hair-salon-hairstyles-photos-gallery" id="1188738926" file="false"><img src="images/WEB%20KAYANDKOMPANY%20SALON%20PIVS%20FEB%202017%20IMG_0191-336x448-1920w.jpg" id="1084022455" dm_changed="true" class="u_1084022455" alt="pink hair rainbow haircolours kayandkompany olaplex salon london n10 muswellhill hairdressers" title="pink hair don't care by  sev" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1493263724"> <div class="dmRespColsWrapper" id="1027096104"> <div class="dmRespCol large-12 medium-12 small-12" id="1131114030"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1557012052"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1301505469"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1069233430 dmRespRow" id="1069233430"> <div class="dmRespColsWrapper" id="1732313576"> <div class="dmRespCol large-12 medium-12 small-12" id="1813845587"> <div class="u_1896793832 dmNewParagraph" id="1896793832" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><font><b style=""><font style="color: rgb(236, 37, 9);">*</font><font style="color: rgb(233, 156, 75);">LAUREN</font></b></font></div> 
+ <div><font class="font-size-18 lh-1">Senior Hairstylist | Master Hair Colourist | Master Perm Specialist |</font> 
+ <font class="font-size-18 lh-1">Great Lengths Hair Extension Specialists�</font></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1014781228" id="1014781228"> <div class="dmRespColsWrapper" id="1952400676"> <div class="dmRespCol large-12 medium-12 small-12" id="1351164922"> <div class="u_1273407544 imageWidget" data-widget-type="image" id="1273407544" data-anim-desktop="none" data-element-type="image"> <a href="/organic-hair-colours-balayage-highlights-olaplex-ombre" id="1742804530" file="false"><img src="images/Lauren-240x300-d8686b81-1920w.jpg" id="1850556337" dm_changed="true" class="u_1850556337" alt=">hair and beauty salons in London muswell hill N10 | kayandkompany | hairdressers organic | meet our team Drew" title=">hair and beauty salons in London muswell hill N10 | kayandkompany | organic hairdressers | meet our hair team Drew" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/Lauren-240x300-d8686b81.jpg" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1955774436 dmRespRow" id="1955774436"> <div class="dmRespColsWrapper" id="1529044745"> <div class="dmRespCol large-12 medium-12 small-12" id="1905506007"> <div class="u_1997040180 dmNewParagraph" id="1997040180" style="transition:opacity 1s ease-in-out;" data-element-type="paragraph"> <div><span><b><font style="color: rgb(236, 37, 9);">*</font>Lauren�</b></span><b>Joined our Kay and Kompany team in 2001</b></div> 
+ <div><b><br></b></div> 
+ <div><b><font style="color: rgb(236, 37, 9);"><i>Our *Lauren is currently on maternity leave</i></font></b></div> 
+ <div><b><br></b></div> 
+ <div><span>Lauren is a Master hair Colourist and Master Perm Technician.</span></div> 
+ <div><span><br></span></div> 
+ <div><span>An exceptionally skilled hairstylist�</span>with <b>26 years</b> experience</div> 
+ <div><span><br></span></div> 
+ <div><span>Lauren is a passionate and creative hairdresser. An expert in�</span>all aspects of Womens & Men's haircuts, hair styling, and haircolours. Including, Elumen colours, ombre, sombre, balayage and foil hi-lights�</div> 
+ <div><br></div> 
+ <div>Lauren specializes in all curly hair�<b>Perm techniques�</b>and is also a highly trained <b>Great Lengths Hair Extensions Specialist</b></div> 
+ <div><b><br></b></div> 
+ <div>Her skills and treatments also include, <b>Yuko hair straightening</b> 
+and Brazilian blow-outs</div> 
+ <div><br></div> 
+ <div>She can help and advise you on which hair treatments would suit your hair best such as Olaplex, Redken or Kerastraight Keratin treatments</div> 
+ <div>�</div> 
+ <div><span>Lauren has excellent customer care skills with a very professional approach and�</span>is friendly, caring with a quiet nature</div> 
+ <div><br></div> 
+ <div>Lauren will make you feel at ease when consulting with you about your hair, she will do all she can to make your customer experience with her the best it can be.</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1017993170 dmRespRow" id="1017993170"> <div class="dmRespColsWrapper" id="1256462806"> <div class="dmRespCol large-12 medium-12 small-12" id="1562971085"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1361005438"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1016704059"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1228957355 dmRespRow" id="1228957355"> <div class="dmRespColsWrapper" id="1520980259"> <div class="dmRespCol large-12 medium-12 small-12 u_1604465263" id="1604465263"> <h3 class="u_1329419779 dmNewParagraph" id="1329419779" style="transition: opacity 1s ease-in-out 0s;" data-element-type="paragraph"> <div><font class="lh-1 font-size-24" style="color: rgb(231, 154, 74);">Harita�</font></div> 
+ <div><span style="" class="font-size-20 lh-1"><font class="lh-1" style="">Head Senior Beauty & Body Therapist</font>�</span></div> 
+</h3> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1367343652" id="1367343652"> <div class="dmRespColsWrapper" id="1479762198"> <div class="dmRespCol small-12 medium-12 large-12" id="1092671296"> <div class="u_1415250821 imageWidget align-center hasFullWidth" data-element-type="image" data-widget-type="image" id="1415250821" data-anim-desktop="none"> <a id="1200843947" class="" target="_blank" href="https://www.thebeautyroomlondon.co.uk/beauty-treatments" file="false"><img src="images/BEAUTY%252BKAYANDKOMPANY%252BN10%252BHARITA%252BWEB%252BIMG_1765-1920w.jpg" alt=">best hair and beauty salons in muswell hill london N10 | kayandkompany | organic hairdressers and beauty therapists Pavlina" id="1586939138" class="" data-dm-image-path="https://irp.cdn-website.com/524d2f23/dms3rep/multi/BEAUTY%2BKAYANDKOMPANY%2BN10%2BHARITA%2BWEB%2BIMG_1765.jpg" title=">best hair and beauty salons in Muswell hill London N10 | kayandkompany | organic hairdressers and beauty therapists Pavlina" width="316" height="448" onerror="handleImageLoadError(this)"></a> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1729165143 dmRespRow" id="1729165143"> <div class="dmRespColsWrapper" id="1219241385"> <div class="dmRespCol large-12 medium-12 small-12" id="1402666774"> <div class="dmNewParagraph u_1658805144" id="1658805144" style="transition: opacity 1s ease-in-out 0s;" data-element-type="paragraph"> <div><b style=""><span style="font-weight: 400;" class="font-size-20 lh-1">Harita Joined our team in 2015</span></b></div> 
+ <blockquote style="margin: 0 0 0 40px; border: none; padding: 0px;"> <div><b style="font-size: 22px;"><span style="font-weight: 400;"><br></span></b></div> 
+ <div><span style="" class="font-size-20 lh-1"><b style=""><span style="font-weight: 400;"><i style="">An Excellent Expert Head Senior Beauty and Body Therapist.</i></span></b><br></span></div> 
+</blockquote> 
+ <div><b><span style="font-weight: 400;" class="font-size-18 lh-1"><br></span></b></div> 
+ <div><b><span style="font-weight: 400;" class="font-size-18 lh-1">You will find Harita is a true professional, a highly qualified senior beauty therapist.�</span></b><b><span style="font-weight: 400;" class="font-size-18 lh-1">She is friendly, confidential, kind, and caring with excellent customer care skills.</span></b></div> 
+ <div><b style=""><span style="font-weight: 400;" class="font-size-18 lh-1"><br></span></b></div> 
+ <div><b style=""><span style="font-weight: 400;" class="font-size-18 lh-1">Harita has over 18 years of hands-on experience, working and managing top London beauty salons and spas including, working with VIP celebrity clientele.</span></b></div> 
+ <div><b style=""><span style="font-weight: 400;" class="font-size-18 lh-1"><br></span></b></div> 
+ <div><span style="" class="font-size-18 lh-1"><b style=""><span style="font-weight: 400;">Harita has achieved national and international qualifications in all aspects of beauty treatments and body therapies. She</span></b><b style=""><span style="font-weight: 400;">�is a first-class beautician and always delivers a high customer service with top quality beauty products for all her clients.�</span></b></span></div> 
+ <div><b style=""><span style="font-weight: 400;" class="font-size-18 lh-1"><br></span></b></div> 
+ <div><span style="" class="font-size-18 lh-1"><b style=""><span style="font-weight: 400;">If you are seeking a professional, hygienic wax, an enjoyable, relaxing beauty, body treatment, or you just need some well-deserved ultimate, pampering then a visit to Haritas beauty room at Kay and Kompany in Muswell Hill is a must.</span></b><br></span></div> 
+ <div><b style=""><span style="font-weight: 400;" class="font-size-18 lh-1"><br></span></b></div> 
+ <div><b style=""><span style="" class="font-size-18 lh-1">Book a beauty appointment today, and receive 15% off your first visit, you will not be disappointed!</span></b></div> 
+ <div><b style=""><span style="" class="font-size-18 lh-1"><br></span></b></div> 
+ <div><b style=""><span style="" class="font-size-18 lh-1"><i style="">Harita's beauty room is open every day apart from Sundays</i></span></b></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1231611048"> <div class="dmRespColsWrapper" id="1703273244"> <div class="dmRespCol small-12 large-6 medium-6" id="1171953515"> <a data-display-type="block" class="align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.thebeautyroomlondon.co.uk/our-beauty-salons-price-list" data-element-type="dButtonLinkId" id="1305055249" target="_blank"> <span class="iconBg" aria-hidden="true" id="1708769403"> <span class="icon hasFontIcon icon-star" id="1408570100"></span> 
+</span> 
+ <span class="text" id="1976238489">Click For Harita Prices & Treatments</span> 
+</a> 
+</div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1511140548"> <a data-display-type="block" class="u_1746684388 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1746684388" target="_blank"> <span class="iconBg" aria-hidden="true" id="1549558984"> <span class="icon hasFontIcon icon-star" id="1260753567"></span> 
+</span> 
+ <span class="text" id="1704457706">Book With Harita Today!</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1084258574" id="1084258574"> <div class="dmRespColsWrapper" id="1924561226"> <div class="dmRespCol large-12 medium-12 small-12" id="1130450812"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1496992224"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1102406039"></div> 
+</div> 
+</div> 
+</div> 
+ <section class="u_1174073899 dmRespRow dmHomeSection3" id="1174073899"> <div class="dmRespColsWrapper" id="1433527137"> <div class="u_1949371108 dmRespCol small-12 large-6 medium-6" id="1949371108"> <div class="u_1605904566 dmSpacer" id="1605904566" data-element-type="spacer"></div> 
+ <div class="u_1048831605 dmNewParagraph" id="1048831605"> <div><font style="color: rgb(255, 255, 255);"><span class="size-18 lh-1" style="font-weight: 400;"><i><font style="color: rgb(255, 255, 255);">Due to Kay and her team's passion, commitment</font> 
+ <font style="color: rgb(255, 255, 255);">and dedication, Kay and Kompany Salon are proud</font> 
+ <font style="color: rgb(102, 102, 102);"></font> 
+</i> 
+<font style="color: rgb(255, 255, 255);"><i>to announce that they won not one, but</i> 
+4 London and English <i>Hair & Beauty</i> 
+ <b>Awards</b> 
+ <i>in</i></font></span><i><font style="color: rgb(255, 255, 255);">�</font></i></font></div> 
+ <div><font style="color: rgb(255, 255, 255);"><i><font style="color: rgb(255, 255, 255);">2015, 2016, 2017 & 2018</font><font style="color: rgb(255, 255, 255);">�</font></i></font><font style="color: rgb(255, 255, 255);"><i><font style="color: rgb(255, 255, 255);"><br></font></i></font></div> 
+<div><div><i style="background-color: transparent;"><span class="size-18 lh-1"><font style="color: rgb(233, 86, 20);"><font style="color: rgb(231, 154, 74);"><a style="color: rgb(231, 154, 74); font-weight: 700;" href="/our-hair-salon-hairdressers-services-story" runtime_url="/our-hair-salon-services" file="false">'North London Hair Salon of the Year</a>'�</font></font></span></i></div><div><b style="background-color: transparent;"><i><span class="size-18 lh-1"><font style="color: rgb(233, 86, 20);"><font style="color: rgb(231, 154, 74);"><font style="">'</font><a style="color: rgb(231, 154, 74);" href="/our-hair-salon-hairdressers-services-story" runtime_url="/our-hair-salon-services" file="false">North London Team/Service of the Year</a>'��</font></font></span></i></b></div><div><b style="background-color: transparent;"><i><span class="size-18 lh-1"><font style="color: rgb(231, 154, 74);">'The�</font></span></i></b><font style="color: rgb(231, 154, 74);"><b style="background-color: transparent;"><i>English�Hair Technician�</i></b><b style="background-color: transparent;"><i>�of the Year' �</i></b></font></div><div><b style="background-color: transparent;"><i><font style="color: rgb(231, 154, 74);">'London's Most Wanted Salon of the Year'</font></i></b></div></div></div></div> 
+ <div class="dmRespCol large-6 medium-6 small-12" id="1518423407"> <div class="u_1723882328 imageWidget" data-widget-type="image" id="1723882328" data-anim-desktop="none" data-element-type="image"><img src="images/3375118aeb5c4ea3a5ea7277f18b15bc-336x336.dm.edit_6cyIS2-1920w.jpg" id="1518312021" dm_changed="true" class="u_1518312021" alt="Best salons and best hairdressers awards to kay and kompany salon in london n10 muswell hill." title="Best salons and best hairdressers awards to kay and kompany salon in London N10 Muswell Hill." onerror="handleImageLoadError(this)"></div> 
+</div> 
+</div> 
+</section> 
+ <div class="dmRespRow" id="1658482883"> <div class="dmRespColsWrapper" id="1759806176"> <div class="dmRespCol large-12 medium-12 small-12" id="1922189680"> <div class="dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1366939609"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1247844226"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1775481611 dmRespRow" style="text-align: center;" id="1775481611"> <div class="dmRespColsWrapper" id="1709361205"> <div class="dmRespCol small-12 medium-12 large-12" id="1863698851"> <div class="u_1480510028 dmNewParagraph" id="1480510028" style="transition:none; border-image: none; display: block; float: none;"><div style="text-align: center;"><font style="color: rgb(241, 241, 241);"><span style="line-height: normal;" class="m-specific m-font-size-24 lh-1">For an award-winning salon with experienced top hairstylists & beauty therapists get in touch today</span><span style="font-size: 28px; line-height: normal;">�</span></font></div></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow" id="1507217515"> <div class="dmRespColsWrapper" id="1661521977"> <div class="dmRespCol large-12 medium-12 small-12" id="1052877432"> <div class="dmDividerWrapper clearfix u_1965678343" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1965678343"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1031608342"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="14" class="dmFooterResp dmFullFooterResp" id="1711867735"> <div class="dmRespRow dmDividerRow" id="1664904328"> <div class="dmRespColsWrapper" id="1078002372"> <div class="large-12 medium-12 small-12 dmRespCol" id="1359934275"> <div class="dmDividerWrapper clearfix" id="1282471907" data-element-type="dDividerId"><hr class="dmDivider defaultDivider" id="1696082168"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1792464760 dmRespRow" id="1792464760"> <div class="dmRespColsWrapper" id="1448121882"> <div class="dmRespCol large-12 medium-12 small-12" id="1478453249"> <div class="u_1317668578 dmNewParagraph" id="1317668578" style="transition: opacity 1s ease-in-out 0s;" data-element-type="paragraph"> <div><span style="color: rgb(255, 255, 255); font-size: 20px;">Book Your� Hair & Beauty Appointments Now 24/7 Online�</span><br></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;">Or�</span></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;">Call Us Today & Speak With a Human Voice!�</span></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1615452453" id="1615452453"> <div class="dmRespColsWrapper" id="1914537326"> <div class="u_1250288252 dmRespCol small-12 medium-4 large-4" id="1250288252"> <a data-display-type="block" class="u_1832219082 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="https://www.isalononline.com/KayandKompany" data-element-type="dButtonLinkId" id="1832219082" data-buttonstyle="THICK_BORDER_ROUND" target="_blank"> <span class="iconBg" id="1544352665"> <span class="icon hasFontIcon icon-star" id="1812588487"></span> 
+</span> 
+ <span class="text" id="1263640680">Book Now 24/7 Online</span> 
+</a> 
+</div> 
+ <div class="u_1914681053 dmRespCol small-12 medium-4 large-4" id="1914681053"> <a class="u_1423187169 default dmCoreImg dmCall voipReplacement dmWidget dmNoMark dmWwr" href="tel:020 8883 5528" contenteditable="false" onclick=";return dm_gaq_push_event('ClickToCall', 'Call',null,'524d2f23', this);" id="1423187169" dmle_extension="clicktocall" data-element-type="clicktocall" data-buttonstyle="THICK_BORDER_ROUND" wr="true" data-display-type="block" localization_key_description="googleTranslate.306" icon="true" surround="true" description="Call Us Today & Book In!" adwords="" icon-name="dm-icon-phone" phone="020 8883 5528" text="" image=""> <span class="iconBg" aria-hidden="true"> <span class="icon hasFontIcon dm-icon-phone"></span> 
+</span> 
+ <span class="text">Call Us Today & Book In!</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 medium-4 large-4" id="1852252349"> <a data-display-type="block" class="u_1037748408 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="false" href="/contact-us-kayandkompany-best-hair-salon-beauty" data-element-type="dButtonLinkId" id="1037748408" data-buttonstyle="THICK_BORDER_ROUND" icon-name="dm-icon-settings"> <span class="iconBg" id="1382692953"> <span class="icon hasFontIconstar hasFontIcon dm-icon-settings" id="1395974653"></span> 
+</span> 
+ <span class="text" id="1029965890">Email Us - We Aim to Reply Within 24/48 hrs</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1804012525" id="1804012525"> <div class="dmRespColsWrapper" id="1359370054"> <div class="dmRespCol small-12 medium-6 large-6" id="1330156703"> <a data-display-type="block" class="u_1706522334 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="true" href="https://irp.cdn-website.com/524d2f23/files/uploaded/hair_kayandkompany_2_price_lists_2025_26_london_best_salons_hairdressers_in_n10_n22_n20_muswell_hill_north_london_hairdressers.pdf" data-element-type="dButtonLinkId" id="1706522334" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1179681310"> <span class="icon hasFontIcon icon-star" id="1898320669"></span> 
+</span> 
+ <span class="text" id="1894525765">Our Prices</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 medium-6 large-6" id="1019442171"> <a data-display-type="block" class="u_1055350301 align-center dmButtonLink dmWidget dmWwr default dmOnlyButton dmDefaultGradient" file="true" href="https://irp.cdn-website.com/524d2f23/files/uploaded/KayandKompany_hair_2025_26_special_offers_vouchers_hairdressers_hair_salons_london_n10_muswellhill_-_for_merge.pdf" data-element-type="dButtonLinkId" id="1055350301" target="_blank" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1371590741"> <span class="icon hasFontIcon icon-star" id="1908481761"></span> 
+</span> 
+ <span class="text" id="1741521991">Our Offers / Vouchers</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1458910790 dmRespRow" id="1458910790"> <div class="dmRespColsWrapper" id="1640726080"> <div class="dmRespCol small-12 medium-12 large-12" id="1665199540"> <div class="u_1178004664 dmNewParagraph" id="1178004664" style="transition: none 0s ease 0s;" data-element-type="paragraph"> <div><font class="lh-1 font-size-20" style="color: rgb(231, 154, 74);"><span style="font-weight: 400;">�</span>Kay and Kompany</font></div> 
+ <div><font class="lh-1 font-size-20" style="color: rgb(231, 154, 74);">Award Winning Organic Hair & Beauty Salons - Since 1986</font><br></div> 
+ <div><font class="lh-1 font-size-20" style="color: rgb(231, 154, 74);"><br></font></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;">69 Colney Hatch Lane,�</span><span style="color: rgb(255, 255, 255); font-size: 20px;">Muswell Hill, London N10 1LR</span></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;">020 8883 5528</span></div> 
+</div> 
+ <div class="u_1377373005 dmNewParagraph" id="1377373005" style="transition: none 0s ease 0s; display: block;" data-element-type="paragraph"> <div><span style="" class="lh-1 font-size-20"><span style="color: rgb(231, 154, 74);">Salon Opening Times</span><br></span></div> 
+ <div><br></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;">Mon:  9:30am - 6:15pm</span></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;"><br></span></div> 
+ <div><span style="color: rgb(255, 255, 255); font-size: 20px;">Tues:� 9:30am - 6:15pm</span></div> 
+ <div><font class="lh-1 font-size-20" style="color: rgb(255, 255, 255);"><br></font></div> 
+ <div><font class="lh-1 font-size-20" style="color: rgb(255, 255, 255);">Wed: 9:30am - 6:15pm</font></div> 
+ <div><font class="lh-1 font-size-20" style="color: rgb(255, 255, 255);"><br></font></div> 
+ <div><span style="" class="lh-1 font-size-20"><font style="color: rgb(255, 255, 255);"><font class="lh-1"><b>�</b></font><span><span style="">Thur: 9:30am -</span> 
+ <span style=""><span style="">7:30pm</span></span></span></font></span></div> 
+ <div><span style="" class="lh-1 font-size-20"><b><span><font style="color: rgb(255, 255, 255);"><br></font></span></b></span></div> 
+ <div><span style="" class="lh-1 font-size-20"><span><font style="color: rgb(255, 255, 255);"><b>�</b><span>Fri: 9:30am - 7:30pm</span></font></span></span></div> 
+ <div><span style="" class="lh-1 font-size-20"><b><font style="color: rgb(255, 255, 255);"><br></font></b></span></div> 
+ <div><span style="" class="lh-1 font-size-20"><font style="color: rgb(255, 255, 255);">Sat: 9am - 6:15pm</font></span></div> 
+ <div><span style="" class="lh-1 font-size-20"><font style="color: rgb(255, 255, 255);"><br></font></span></div> 
+ <div><span style="" class="lh-1 font-size-20"><font style="color: rgb(255, 255, 255);">Sun: - Closed</font></span></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1423331487" id="1423331487"> <div class="dmRespColsWrapper" id="1672056446"> <div class="dmRespCol large-12 medium-12 small-12" id="1110717518"> <div class="u_1028729558 dmNewParagraph" data-element-type="paragraph" data-version="5" id="1028729558" style="transition: opacity 1s ease-in-out; text-align: left;"> <h3 class="text-align-center m-size-19 size-24" style="line-height: 2;"><span class="font-size-24 m-font-size-19" style="color: rgb(231, 154, 74); font-style: italic; display: initial;">Let's Get Social!</span></h3> 
+ <h3 class="m-size-19 text-align-center size-24" style="line-height: 2;"><span class="m-font-size-19 font-size-24" style="color: rgb(231, 154, 74); font-style: italic; display: initial;">Bury Your Nose in Our Hair World!</span><span class="m-font-size-19 font-size-24" style="font-style: italic; display: initial; color: rgb(255, 255, 255);"><br></span></h3> 
+ <h3 class="text-align-center m-size-19 size-24" style="line-height: 2;"><span class="m-font-size-19 font-size-24" style="font-style: italic; display: initial; color: rgb(255, 255, 255);">Follow & Like Us For Salon Updates & Our Daily Deals/Offers</span></h3> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1527781807 dmRespRow" id="1527781807"> <div class="dmRespColsWrapper" id="1631923469"> <div class="dmRespCol large-12 medium-12 small-12" id="1867515202"> <div class="u_1500555613 default dmSocialHub gapSpacing" id="1500555613" dmle_extension="social_hub" data-element-type="social_hub" data-binding="W3siYmluZGluZ05hbWUiOiJzb2NpYWwiLCJ2YWx1ZSI6ImNvbnRlbnRfbGlicmFyeS5nbG9iYWwuc29jaWFsIn1d" wr="false" networks="" icon="false" surround="false"> <div class="socialHubWrapper"> <div class="socialHubInnerDiv vertical"> <a href="https://facebook.com/KayandKompanyHairdressers" target="_blank" dm_dont_rewrite_url="true" aria-label="facebook" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Facebook')"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style2" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://twitter.com/kayandkompany" target="_blank" dm_dont_rewrite_url="true" aria-label="twitter" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Twitter')"> <span class="dmSocialTwitter dm-social-icons-twitter oneIcon socialHubIcon style2" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://instagram.com/kayandkompany/" target="_blank" dm_dont_rewrite_url="true" aria-label="instagram" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Instagram')"> <span class="dmSocialInstagram dm-social-icons-instagram oneIcon socialHubIcon style2" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://linkedin.com/in/kayandkompanysalon" target="_blank" dm_dont_rewrite_url="true" aria-label="linkedin" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Linkedin')"> <span class="dmSocialLinkedin icon-linkedin oneIcon socialHubIcon style2" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://pinterest.com/KayandKompany/" target="_blank" dm_dont_rewrite_url="true" aria-label="pinterest" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Pinterest')"> <span class="dmSocialPinterest icon-pinterest oneIcon socialHubIcon style2" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+ <a href="https://www.tiktok.com/@kayandkompanyhair" target="_blank" dm_dont_rewrite_url="true" aria-label="tiktok" onclick="dm_gaq_push_event && dm_gaq_push_event('socialLink', 'click', 'Tiktok')"> <span class="dmSocialTiktok dm-social-icons-tiktok oneIcon socialHubIcon style2" aria-hidden="true" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1280517491" id="1280517491"> <div class="dmRespColsWrapper" id="1935897442"> <div class="dmRespCol large-12 medium-12 small-12" id="1376545164"> <div class="u_1150117005 dmNewParagraph" id="1150117005" style="transition: none; display: block;" data-element-type="paragraph"><font class="lh-1 font-size-20" style=""><span style="font-weight: 400;"><font style=""><span style="color: rgb(0, 0, 0); font-weight: 400;">�</span><font style="color: rgb(255, 255, 255);" class="m-specific m-font-size-18 lh-1">�</font></font></span><span style="" class="font-size-26 lh-1"><span style="font-weight: normal;" class="m-specific lh-1 m-font-size-18"><font style="color: rgb(255, 255, 255);"><span style="" class="font-size-24 lh-1 m-font-size-18"><font style="">We Look Forward To Meeting <span class="m-specific lh-1">�</span>You Soon!�</font></span><span style="font-weight: 400;">�</span></font></span></span></font></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1773622752 dmRespRow" style="text-align: center;" id="1773622752"> <div class="dmRespColsWrapper" id="1140818533"> <div class="dmRespCol small-12 medium-6 large-6" id="1418244931"> <span id="1094622104"></span> 
+ <a data-display-type="block" class="u_1839168164 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/our-hair-salon-hairdressers-services-story" id="1839168164" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1161810475"> <span class="icon hasFontIcon icon-star" id="1610286380"></span> 
+</span> 
+ <span class="text" id="1910497892">Our Story | Our Salon Services | Salon Awards & Policies</span> 
+</a> 
+ <a data-display-type="block" class="u_1475949906 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/haircuts-hair-blow-drys-hairstyles" id="1475949906" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1748191677"> <span class="icon hasFontIcon icon-star" id="1373264750"></span> 
+</span> 
+ <span class="text" id="1818696777">Haircuts | Blow Drys | Hair Styling</span> 
+</a> 
+ <a data-display-type="block" class="u_1103744927 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/mens-perms-mens-haircuts-mens-hair-mens-haircolours" id="1103744927" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1460393404"> <span class="icon hasFontIcon icon-star" id="1364688849"></span> 
+</span> 
+ <span class="text" id="1714733632">Man Perms | Mens Haircuts | Mens Haircolours</span> 
+</a> 
+ <a data-display-type="block" class="u_1843213579 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/straight-hair-keratin-olaplex-inoar-hair-treatments" id="1843213579" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1177594035"> <span class="icon hasFontIcon icon-star" id="1686193228"></span> 
+</span> 
+ <span class="text" id="1467346964">Fizz Free Straight Hair Treatments | Inoar, KeraStraight, Olaplex</span> 
+</a> 
+</div> 
+ <div class="dmRespCol small-12 medium-6 large-6" id="1190256321"> <span id="1815638158"></span> 
+ <a data-display-type="block" class="u_1341600274 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/perms-spiral-perms-curly-hair-perms-perming-salon" id="1341600274" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1512222255"> <span class="icon hasFontIcon icon-star" id="1840839424"></span> 
+</span> 
+ <span class="text" id="1741789695">Curly Hair Perms & Spiral Perms</span> 
+</a> 
+ <a data-display-type="block" class="u_1631637012 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/hair-extensions-salons-london-great-lengths-tape-wefts" id="1631637012" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1487085957"> <span class="icon hasFontIcon icon-star" id="1983516288"></span> 
+</span> 
+ <span class="text" id="1165941021">Hair Extensions | Great Lengths | Tape  | Nano Beads  | Wefts</span> 
+</a> 
+ <a data-display-type="block" class="u_1383224392 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/organic-hair-colours-balayage-highlights-olaplex-ombre" id="1383224392" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1261380961"> <span class="icon hasFontIcon icon-star" id="1483046276"></span> 
+</span> 
+ <span class="text" id="1645048153">Organic Hair Colours | Ombre Balayage</span> 
+</a> 
+ <a data-display-type="block" class="u_1625253920 dmButtonLink dmWidget dmWwr default dmOnlyButton" file="false" href="/meet-our-hair-salon-best-hairdressers-team" id="1625253920" data-element-type="dButtonLinkId" data-buttonstyle="THICK_BORDER_ROUND"> <span class="iconBg" id="1302213873"> <span class="icon hasFontIcon icon-star" id="1427110708"></span> 
+</span> 
+ <span class="text" id="1002665973">Meet Our Team</span> 
+</a> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1760544552 dmRespRow" id="1760544552"> <div class="dmRespColsWrapper" id="1179130038"> <div class="dmRespCol large-12 medium-12 small-12 u_1529133725" id="1529133725"> <div class="dmDividerWrapper clearfix u_1568189068" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1568189068"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1253434108"></div> 
+ <div class="u_1901648527 dmNewParagraph" id="1901648527" style="transition:opacity 1s ease-in-out;line-height:initial;" data-element-type="paragraph" data-version="5"><p class="m-text-align-left size-14"><a href="/" runtime_url="/" type="page" class="font-size-14" style="display: initial; color: rgb(255, 255, 255);">Areas Served - Haringey �|� Barnet �| Enfield | Crouch End N8 �|� Highgate N6 | East Finchley N2 N3 �| FinchleyN12 | HampsteadNW1 NW3 NW6 |� Friern Barnet N11 �|� Whetstone N20 �| North Finchley �|� Southgate N14 | Alexandra Palace N22</a><span style="display: initial;"><br></span></p></div> 
+ <div class="u_1037574219 dmDividerWrapper clearfix" data-element-type="dDividerId" data-layout="divider-style-1" data-widget-version="2" id="1037574219"><hr class="dmDivider" style="border-width:2px; border-top-style:solid; color:grey;" id="1593474469"></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1074956247" style="text-align: center;" id="1074956247"> <div class="dmRespColsWrapper" id="1566344767"> <div class="dmRespCol small-12 medium-12 large-12" id="1525451277"> <div class="u_1174591111 dmNewParagraph" id="1174591111" style="transition: none 0s ease 0s; display: block;"><div><span class="lh-1 size-9"><font style="color: rgb(255, 255, 255);"><a style="color: rgb(255, 255, 255);" href="https://du-cdn.multiscreensite.com/yell/privacy-policy.html" target="_blank" file="false">Privacy Policy</a> 
+| <a style="color: rgb(255, 255, 255);" href="https://du-cdn.multiscreensite.com/yell/cookie-policy.html" target="_blank" file="false">Cookie Policy</a> 
+| <a style="color: rgb(255, 255, 255);" href="https://du-cdn.multiscreensite.com/yell/conditions-of-use.html" target="_blank" file="false">Conditions of Use</a> 
+| Powered by <a style="color: rgb(255, 255, 255);" href="https://du-cdn.multiscreensite.com/yell/conditions-of-use.html" target="_blank" file="false">Yell Business</a>�- � 2016. The content on this website is owned by us and our licensors. Do not copy any content (including images) without our consent.</font></span></div></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+    </div>
+</div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<!-- ========= JS Section ========= -->
+<script>
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    window.collections = {};
+    window.currentLanguage = "ENGLISH"
+    window.isSitePreview = false;
+</script>
+<script type="text/javascript">
+
+    var d_version = "production_5640";
+    var build = "2025-07-17T12_48_39";
+    window['v' + 'ersion'] = d_version;
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2025-07-17T12_48_39";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            } else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+</script>
+
+<!-- Load jQuery -->
+<script type="text/javascript" id="d-js-jquery" src="js/jquery-3.7.0.min.js"></script>
+<!-- End Load jQuery -->
+<!-- Injecting site-wide before scripts -->
+<!-- End Injecting site-wide to the head -->
+
+
+<script>
+    window.cookiesNotificationMarkupPreview = ' <div>We use cookies to ensure that we give you the best experience on our website. If you would like to change your preferences you may do so by following the instructions <a href=\"http:\/\/www.aboutcookies.org\/Default.aspx?page=1\" target=\"_blank\">here<\/a>.<\/div> \n';
+</script>
+
+<!-- HEAD RT JS Include -->
+<script id="d-js-params">
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["runtimecollector.url"] = 'https://rtc.multiscreensite.com';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"] =true;
+    rtCommonProps["common.build.dist.folder"] = 'production/5640';
+    rtCommonProps["common.resources.cdn.host"] = 'https://static.cdn-website.com';
+    rtCommonProps["common.resources.folder"] = 'https://static.cdn-website.com/mnlt/production/5640';
+    rtCommonProps["feature.flag.runtime.backgroundSlider.preload.slowly"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.runtime.newAnimation.jitAnimation.enabled"] =true;
+    rtCommonProps["feature.flag.sites.google.analytics.gtag"] =true;
+    rtCommonProps["feature.flag.runOnReadyNewTask"] =true;
+    rtCommonProps["isAutomation.test"] =false;
+    rtCommonProps["stats.override.contact.form.event.enabled"] = false;
+
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'mapbox';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.disallowPopupsInEditor'] = true;
+    rtCommonProps['feature.flag.mark.anchors'] = true;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"] =160;
+    rtCommonProps["images.sizes.mobile"] =640;
+    rtCommonProps["images.sizes.tablet"] =1280;
+    rtCommonProps["images.sizes.desktop"] =1920;
+    rtCommonProps["modules.resources.cdn"] =true;
+    rtCommonProps["import.images.storage.imageCDN"] = 'https://lirp.cdn-website.com/';
+    rtCommonProps["feature.flag.runtime.inp.threshold"] =150;
+    rtCommonProps["feature.flag.performance.logs"] =true;
+    rtCommonProps["site.widget.form.captcha.type"] = 'g_recaptcha';
+    rtCommonProps["friendly.captcha.site.key"] = 'FCMGSQG9GVNMFS8K';
+    rtCommonProps["cookiebot.mapbox.consent.category"] = 'marketing';
+    // feature flags that's used out of runtime module (in  legacy files)
+    rtCommonProps["platform.monolith.personalization.dateTimeCondition.popupMsgAction.moveToclient.enabled"] =true;
+    rtCommonProps["streamline.monolith.personalization.skipRuleConditionsForPreview.enabled"] =true;
+
+    window.rtFlags = {};
+    rtFlags["unsuspendEcwidStoreOnRuntime.enabled"] =true;
+    rtFlags["scripts.widgetCount.enabled"] =true;
+    rtFlags["fnb.animations.tracking.enabled"] =true;
+    rtFlags["ecom.ecwidNewUrlStructure.enabled"] = false;
+    rtFlags["ecom.ecwid.accountPage.emptyBaseUrl.enabled"] = false;
+    rtFlags["ecom.ecwid.pages.links.disable.listeners"] = false;
+    rtFlags["ecom.ecwid.storefrontV3.enabled"] = false;
+    rtFlags["ecom.ecwid.old.store.fix.facebook.share"] = true;
+    rtFlags["feature.flag.photo.gallery.exact.size"] =true;
+    rtFlags["geocode.search.localize"] =false;
+    rtFlags["feature.flag.runtime.newAnimation.asyncInit.setTimeout.enabled"] =false;
+    rtFlags["twitter.heightLimit.enabled"] = true;
+    rtFlags["editor.classicHybrid.photogallery.fix"] =true;
+    rtFlags["runtime.lottieOverflow"] =false;
+    rtFlags["runtime.monitoring.sentry.ignoreErrors"] = "";
+    rtFlags["contact.form.browserValidation.enabled"] =true;
+    rtFlags["streamline.monolith.personalization.supportMultipleConditions.enabled"] =false;
+    rtFlags["runtime.cwv.report.cls.enabled"] =true;
+    rtFlags["editor.link.on.container"] =true;
+    rtFlags["flex.runtime.popup.with.show"] =true;
+    rtFlags["contact.form.useActiveForm"] =true;
+    rtFlags["runtime.ssr.productStore.internal.observer"] =true;
+    rtFlags["runtime.ssr.productCustomizations"] =true;
+    rtFlags["flex.megaMenu.a11y"] =true;
+</script>
+<script src="js/d-js-one-runtime-unified-desktop.min.js" id="d-js-core"></script>
+<!-- End of HEAD RT JS Include -->
+<script src="js/d-js-jquery-migrate.min.js"></script>
+<script>
+    
+    $(window).bind("orientationchange", function (e) {
+        $.layoutManager.initLayout();
+        
+    });
+    $(document).resize(function () {
+        
+    });
+</script>
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+    if (!window.location.search) {
+        return;
+    }
+	const cleanParams = window.location.search.substring(1); // Strip ?
+	const queryParams = cleanParams.split('&');
+
+	const expires = 'expires=' + new Date().getTime() + 24 * 60 * 60 * 1000;
+	const domain = 'domain=' + window.location.hostname;
+	const path = "path=/";
+
+	queryParams.forEach((param) => {
+		const [key, value = ''] = param.split('=');
+		if (key.startsWith('utm_')) {
+			const cookieName = "_dm_rt_" + key.substring(4);
+			const cookie = cookieName + "=" + value;
+			const joined = [cookie, expires, domain, path].join(";");
+			document.cookie = joined;
+		}
+	});
+}());
+</script>
+<script type="text/javascript">
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-37518307-1"></script>
+<script type="text/javascript" id="d_track_ga">
+  _dm_gaq.siteAlias = '524d2f23';
+  _dm_gaq.systemAggregatedGaqID = '';
+  _dm_gaq.externalGaqID = 'UA-37518307-1';
+  _dm_gaq.gaAggregatedEventAttributes = {
+	  'site_alias':  _dm_gaq.siteAlias,
+	  'product': 'DM_DIRECT',
+	  'plan': 'YELL_PLUS',
+	  'dfooter': 'false',
+	  'sitetype': '1',
+	  'pwaEnabled': 'true'
+  }
+
+  _dm_gaq.pushEvent = function(trackingId, event, category, label, value, additionalParams = {}) {
+	  const eventProps = {
+		  send_to: trackingId,
+		  event_category: category,
+		  event_label: label,
+		  value,
+		  ...additionalParams,
+		  ...(trackingId === _dm_gaq.systemAggregatedGaqID
+				  ? _dm_gaq.gaAggregatedEventAttributes : {})
+	  };
+	  gtag('event', event, eventProps);
+  }
+
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+  function pushInsiteImpressions(id) {
+	  _dm_insite.forEach((rule) => {
+		  _dm_gaq.pushEvent(id, 'insite_impression', 'insite', rule.ruleType + '__' + rule.ruleId);
+	  });
+  }
+
+if(_dm_gaq.systemAggregatedGaqID){
+	// track aggregated account
+	gtag('config', '', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'custom_map': {'dimension1': 'site_alias', 'dimension2': 'product', 'dimension3': 'dFooter', 'dimension4': 'sitetype'}
+	});
+	gtag('set', 'developer_id.dMDU5Nj', true);
+
+	_dm_gaq.pushEvent('', 'page_view');
+	pushInsiteImpressions(_dm_gaq.systemAggregatedGaqID);
+}
+
+if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+	gtag('config', 'UA-37518307-1', {
+		'send_page_view': false,
+		'anonymize_ip': true,
+		'transport_type': 'beacon',
+		'linker': {
+			'domains': ['kayandkompany.com']
+		}
+	});
+	_dm_gaq.pushEvent('UA-37518307-1', 'page_view');
+	pushInsiteImpressions(_dm_gaq.externalGaqID);
+}
+</script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: '524d2f23'
+});
+
+// snowplow queries element styles so we wait until CSS calculations are done.
+requestAnimationFrame(() => {
+	dmsnowplow('trackPageView');
+	_dm_insite.forEach((rule) => {
+		// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+		// the tracking is in popup.js
+		if (rule.actionName !== "popup") {
+			dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+		}
+		window?.waitForDeferred?.('dmAjax', () => {
+			$.DM.events.trigger('event-ruleTriggered', {value: rule});
+		});
+	});
+});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root" data-locale="en"></div>
+<!-- Alias: 524d2f23 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+	window?.waitForDeferred?.('dmAjax', () => {
+		// Collects client data and updates cookies used by smart sites
+		window.expireDays = 365;
+		window.visitLength = 30 * 60000;
+		$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), window.expireDays);
+			setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+	});
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'More';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'Less';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+<!--  End Script tags -->
+<!--  Site Wide Html Markup -->
+<!--  Site Wide Html Markup -->
+<!--  Begin Product Custom HTML Markup -->
+<style>
+.menuContainer .currentPage::before {
+  position: absolute;
+}
+</style><!--  End Product Custom HTML Markup -->
+
+
+</body></html>
